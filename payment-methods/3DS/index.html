@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>3D Secure 2/Recurring :: hobex Online Guides</title>
+    <link rel="canonical" href="https://guides.qenta.com/online-guides/main/payment-methods/3DS/">
+    <meta name="generator" content="Antora 3.1.12">
+    <link rel="stylesheet" href="/_/css/site.css">
+<link rel="stylesheet" href="/_/css/search.css">
+<link rel="stylesheet" href="/_/css/qenta.css">
+<link rel="stylesheet" href="https://use.typekit.net/ucf2gvc.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="/_/css/nav-menu.css">
+<link rel="stylesheet" href="/_/css/tables.css">
+<link rel="icon" href="/_/img/favicon_hobex.jpg" type="image/png">
+  </head>
+  <body class="article">
+<header class="header" role="banner">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://guides.qenta.com">hobex Online Guides</a>
+      <div class="navbar-item search hide-for-print">
+        <div id="search-field" class="field">
+          <input id="search-input" type="text" placeholder="Search the docs">
+        </div>
+      </div>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://guides.qenta.com/">Home</a>
+        </div>
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://sit.hobex.at/">Enterprise</a>
+        </div>
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://sit.hobex.at/haendler-login/">Merchant Login</a>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://guides.qenta.com/contact/">Contact</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="online-guides" data-version="main">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="../../">hobex Online Guides</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Hosted Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../hosted/page/">Checkout Page</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/page/quick-guide-for-developers/">Quick Guide For Developers</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/page/integration-quide/">Integration Guide</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/page/customization/">Customization</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../hosted/seamless/">Checkout Seamless</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/seamless/SeamlessImplementation/">Method of Integration</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/seamless/data-storage/">Invoke the Data Storage</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/seamless/seamless-payment-process/">Seamless Payment Process</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/seamless/customization/">Customization</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Web-Based Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/terminal/">Checkout Terminal</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/automated/">Checkout Automated</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/paybylink/">PayByLink</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/payment-center/">Payment Center</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/journal/">Checkout Journal</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">API Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../API/paybylinkAPI/">PayByLink API</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text"><a href="https://qtill.guides.qenta.com/" target="\"_blank\"">Checkout Enterprise</a></span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../securing-online-shop/">Securing the Online Shop</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Frontend Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../parameters/frontend/request-parameters/">Request</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../parameters/frontend/required-parameters/">Required</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../parameters/frontend/optional-parameters/">Optional</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../parameters/frontend/response-parameters/">Response</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../parameters/datastorage/">Data Storage</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Backend Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../parameters/backend/request-parameters/">Request</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../parameters/backend/required-parameters/">Required</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../parameters/backend/optional-parameters/">Optional</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../parameters/backend/response-parameters/">Response</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../parameters/detailed-description/">Detailed Description</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../parameters/error-codes/">Error Codes</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Demo/Test</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../demo-mode/">Demo</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../test-mode/">Test</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../backend/backend-operations/">Backend Operations</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../backend/categories/#transactionBasedOperations">Transaction-based</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../backend/transaction-based/">Available Operations</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../backend/by-payment-method/">Operations by Payment Method</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../backend/categories/#nonTransactionBasedOperations">Non-transaction-based</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../plugins/">Shop Plugins</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../">Payment Methods</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../circlek/">Circle K</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../credit-card/">Credit Card</a>
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="3">
+    <a class="nav-link" href="./">3D Secure/Recurring</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../mail-order/">Mail Order and Telephone Order</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../cvs/">CVS</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../dollar-general/">Dollar General</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../eps/">EPS</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../googlePayApi/">GooglePay</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../ideal/">iDeal</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../klarna/">Klarna</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../obucks/">oBucks</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../payolution/">Payolution</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../paypal-new/">PayPal</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../automatic-3rdparty-permission/">3rd Party Permissions</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../paysafecard/">Paysafecard</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../pagoefectivo/">PagoEfectivo</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../p24/">P24</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../riverty/">Riverty</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../safetypay/">Safetypay</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../sepa/">SEPA</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../Visa%20Click%20to%20Pay/">Visa Click to Pay</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../logos/">Logos</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../glossary/">Glossary</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../certificates/">Certificates</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../contact/">Contact</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../migration/">Migration</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">hobex Online Guides</span>
+    <span class="version">main</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="../../">hobex Online Guides</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../../">main</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../../" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../../">hobex Online Guides</a></li>
+    <li><a href="../">Payment Methods</a></li>
+    <li><a href="../credit-card/">Credit Card</a></li>
+    <li><a href="./">3D Secure/Recurring</a></li>
+  </ul>
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">3D Secure 2/Recurring</h1>
+<div class="sect1">
+<h2 id="3DSecure"><a class="anchor" href="#3DSecure"></a>3D Secure 2/Recurring</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>SCA is a European regulatory requirement to combat and reduce fraud and make online payments more secure in every aspect.</p>
+</div>
+<div class="paragraph">
+<p>There are three elements, that must be independent of one another, and have to be considered to verify the identity of the consumer: PIN or password, smartphone, and scan or fingerprint.</p>
+</div>
+<div class="paragraph">
+<p>Supported brands are Mastercard, VISA, American Express, Diners Club, and Discover.</p>
+</div>
+<div class="paragraph">
+<p>It is mandatory to send these <a href="../../parameters/frontend/optional-parameters/#optionalParametersForConsumer" class="xref page">optional request parameters</a> for an initial transaction:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>consumerEmail</code> (or <code>consumerBillingPhone</code> or <code>consumerBillingMobilePhone</code> for Visa Transactions from 12th August 2024)</p>
+</li>
+<li>
+<p><code>consumerBillingFirstname</code></p>
+</li>
+<li>
+<p><code>consumerBillingLastname</code></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>If "emerchantpay" is the chosen acquirer,  parameters <code>consumerBillingAddress1</code>, <code>consumerBillingCity</code>, <code>consumerBillingZipCode</code> and <code>consumerBillingCountry</code> must be added.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="3DS2UseCases"><a class="anchor" href="#3DS2UseCases"></a>3DS2 Use Cases</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>To start the payment process a request must be sent to a specific URL containing 3D Secure 2 request parameters for <a href="../../hosted/page/quick-guide-for-developers/#invoking" class="xref page">Checkout Page</a> and <a href="../../hosted/seamless/#postRequestSeamless" class="xref page">Checkout Seamless</a>.</p>
+</div>
+<div class="sect2">
+<h3 id="oneTimePayment"><a class="anchor" href="#oneTimePayment"></a>One-Time Payment</h3>
+<div class="paragraph">
+<p>One-time payment is a fast way to make a single, non-recurring payment. Every transaction is consumer-initiated, therefore SCA based on PSD2 is required.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="oneClickCheckout"><a class="anchor" href="#oneClickCheckout"></a>One-Click Checkout</h3>
+<div class="paragraph">
+<p>Each One-click checkout transaction falls under the SCA requirements because it&#8217;s executed by the consumer in session. Merchants have to store credit card data as a token in their webshops for recurring payments. The advantage is that consumers can initialize the transaction just in a few steps with data stored in the shop. Every transaction is consumer-initiated so they need to give permission the first time for one-click checkout.</p>
+</div>
+<div class="paragraph">
+<p>In the first request set:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>consumerEmail</code> (or <code>consumerBillingPhone</code> or <code>consumerBillingMobilePhone</code> for Visa Transactions with 12th August 2024)</p>
+</li>
+<li>
+<p><code>consumerBillingFirstname</code></p>
+</li>
+<li>
+<p><code>consumerBillingLastname</code></p>
+</li>
+<li>
+<p><code>consumerChallengeIndicator</code> must be set to <code>04</code>,</p>
+</li>
+<li>
+<p><code>merchantTokenizationFlag</code> must be set to <code>true</code>.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>If "emerchantpay" is the chosen acquirer,  parameters <code>consumerBillingAddress1</code>, <code>consumerBillingCity</code>, <code>consumerBillingZipCode</code> and <code>consumerBillingCountry</code> must be added.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+We recommend optional parameters <code>consumerAuthenticationMethod</code> and <code>consumerShippingItemAvailability.</code>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>If the result is received after the payment is done then the 3DS2 process is completed for the first payment. If the consumer wants to pay again, the checkout has to be initialized again. Set the <code>sourceOrderNumber</code> with the <code>orderNumber</code> value from the previous payment in the new request. If the process is done by Checkout Seamless then <strong>don&#8217;t</strong> refer to any Data Storage session again and proceed to the frontend init.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Parameters <code>orderIdent</code> and <code>storageID</code> must not use combined with the parameter <code>sourceOrderNumber</code>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="subscriptionModel"><a class="anchor" href="#subscriptionModel"></a>Subscription Model</h3>
+<div class="paragraph">
+<p>With this model, consumers must be informed regarding the terms of the agreement when setting up the recurring payment plan and the first transaction needs an SCA since transactions are merchant-initiated.</p>
+</div>
+<div class="paragraph">
+<p>In the first request set:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>consumerEmail</code> (or <code>consumerBillingPhone</code> or <code>consumerBillingMobilePhone</code> for Visa Transactions with 12th August 2024)</p>
+</li>
+<li>
+<p><code>consumerBillingFirstname</code></p>
+</li>
+<li>
+<p><code>consumerBillingLastname</code></p>
+</li>
+<li>
+<p><code>consumerChallengeIndicator</code> must be set to <code>04</code>,</p>
+</li>
+<li>
+<p><code>merchantTokenizationFlag</code> must be set to <code>true</code>.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>If "emerchantpay" is the chosen acquirer,  parameters <code>consumerBillingAddress1</code>, <code>consumerBillingCity</code>, <code>consumerBillingZipCode</code> and <code>consumerBillingCountry</code> must be added.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+We recommend optional parameters <code>consumerAuthenticationMethod</code> and <code>consumerShippingItemAvailability.</code>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>If the result is received after the payment is done then the 3DS2 process is completed for the first payment.</p>
+</div>
+<div class="paragraph">
+<p>The merchant has to use the <a href="../../backend/transaction-based/#recurPayment" class="xref page">recurPayment</a> backend operation with the <code>sourceOrderNumber</code>, the <code>merchantTokenizationFlag</code> with the value <code>true</code> and the <code>periodicType</code> with the value <code>recurring</code>. The <code>sourceOrderNumber</code> is the <code>orderNumber</code> from the last recurring transaction and if the last transaction was the initial transaction, use this <code>orderNumber</code> for the <code>sourceOrderNumber</code> instead.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="recurringPaymentDifferentAmount"><a class="anchor" href="#recurringPaymentDifferentAmount"></a>Recurring Payment with Different Amount by Each Payment</h3>
+<div class="paragraph">
+<p>Unlike the subscription model where recurring payments happen with the same amount on a fixed date, PSD2 has the possibility to execute unscheduled merchant-initiated transactions (UCOF). Merchants have to consider that consumers must be informed regarding the terms of the unscheduled credential on file. The first transaction needs an SCA since transactions are merchant-initiated.</p>
+</div>
+<div class="paragraph">
+<p>In the first request set:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>consumerEmail</code> (or <code>consumerBillingPhone</code> or <code>consumerBillingMobilePhone</code> for Visa Transactions with 12th August 2024)</p>
+</li>
+<li>
+<p><code>consumerBillingFirstname</code></p>
+</li>
+<li>
+<p><code>consumerBillingLastname</code></p>
+</li>
+<li>
+<p><code>consumerChallengeIndicator</code> must be set to <code>04</code>,</p>
+</li>
+<li>
+<p><code>merchantTokenizationFlag</code> must be set to <code>true</code>.</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+We recommend optional parameters <code>consumerAuthenticationMethod</code> and <code>consumerShippingItemAvailability.</code>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>If the result is received after the payment is done then the 3DS2 process is completed for the first payment.</p>
+</div>
+<div class="paragraph">
+<p>The merchant has to use the <a href="../../backend/transaction-based/#recurPayment" class="xref page">recurPayment</a> backend operation with the <code>sourceOrderNumber</code>, the <code>merchantTokenizationFlag</code> with the value <code>true</code> and the <code>periodicType</code> with the value <code>ucof</code>. The <code>sourceOrderNumber</code> is the <code>orderNumber</code> from the last recurring transaction and if the last transaction was the initial transaction, use this <code>orderNumber</code> for the <code>sourceOrderNumber</code> instead.</p>
+</div>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer qenta">
+  <div class="uk-section-secondary uk-section">
+    <div class="uk-container">
+      <div class="tm-grid-expand uk-grid-large uk-grid-margin-large uk-grid" uk-grid="">
+        <div class="uk-width-1-3@m uk-first-column">
+          <div class="uk-position-relative uk-margin" style="left: 0px; bottom: 20px;">
+            <a class="el-link" href="#2" uk-scroll=""><img class="el-image" alt="" uk-img=""
+                src="https://sit.hobex.at/wp-content/themes/yootheme/cache/hobex-logo-cmyk-e8548fa7.jpeg" width="160"></a>
+          </div>
+          <div class="uk-panel uk-text-meta uk-position-relative" style="bottom: 20px;">
+            <p>©2025 - HOBEX SERVICE IT GMBH</p>
+          </div>
+        </div>
+        <div class="uk-width-2-3@m">
+          <div class="uk-text-right">
+            <ul class="uk-margin-remove-bottom uk-subnav uk-flex-right" uk-margin="">
+              <li class="el-item uk-first-column">
+                <a class="el-link" href="https://sit.hobex.at/">COMPANY</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/merchant-login/">MERCHANT LOGIN</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/payment-solutions/">SOLUTIONS</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/contact/">CONTACT</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://guides.qenta.com" target="_blank">ONLINE GUIDES</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/download-center/">DOWNLOAD CENTER</a>
+              </li>
+            </ul>
+          </div>
+          <div class="uk-text-right">
+            <ul class="uk-margin-remove-bottom uk-subnav uk-flex-right" uk-margin="">
+              <li class="el-item uk-first-column">
+                <a class="el-link" href="https://sit.hobex.at/en/imprint/">IMPRINT</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://guides.qenta.com/protection-personal-data/data-protection-en/">DATA PROTECTION</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/terms-and-conditions/">T&C</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script id="site-script" src="/_/js/site.js" data-ui-root-path="../../../../_"></script>
+<script async src="/_/js/vendor/highlight.js"></script>
+<script src="/_/js/vendor/lunr.js"></script>
+<script src="/_/js/search-ui.js" id="search-ui-script" data-site-root-path="../../../.." data-snippet-length="100" data-stylesheet="../../../../_/css/search.css"></script>
+<script async src="../../../../search-index.js"></script>
+  </body>
+</html>

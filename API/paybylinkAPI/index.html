@@ -1,0 +1,1789 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>PaybyLink API :: hobex Online Guides</title>
+    <link rel="canonical" href="https://guides.qenta.com/online-guides/main/API/paybylinkAPI/">
+    <meta name="generator" content="Antora 3.1.12">
+    <link rel="stylesheet" href="/_/css/site.css">
+<link rel="stylesheet" href="/_/css/search.css">
+<link rel="stylesheet" href="/_/css/qenta.css">
+<link rel="stylesheet" href="https://use.typekit.net/ucf2gvc.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="/_/css/nav-menu.css">
+<link rel="stylesheet" href="/_/css/tables.css">
+<link rel="icon" href="/_/img/favicon_hobex.jpg" type="image/png">
+  </head>
+  <body class="article">
+<header class="header" role="banner">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://guides.qenta.com">hobex Online Guides</a>
+      <div class="navbar-item search hide-for-print">
+        <div id="search-field" class="field">
+          <input id="search-input" type="text" placeholder="Search the docs">
+        </div>
+      </div>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://guides.qenta.com/">Home</a>
+        </div>
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://sit.hobex.at/">Enterprise</a>
+        </div>
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://sit.hobex.at/haendler-login/">Merchant Login</a>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://guides.qenta.com/contact/">Contact</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="online-guides" data-version="main">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="../../">hobex Online Guides</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Hosted Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../hosted/page/">Checkout Page</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/page/quick-guide-for-developers/">Quick Guide For Developers</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/page/integration-quide/">Integration Guide</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/page/customization/">Customization</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../hosted/seamless/">Checkout Seamless</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/seamless/SeamlessImplementation/">Method of Integration</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/seamless/data-storage/">Invoke the Data Storage</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/seamless/seamless-payment-process/">Seamless Payment Process</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/seamless/customization/">Customization</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Web-Based Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/terminal/">Checkout Terminal</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/automated/">Checkout Automated</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/paybylink/">PayByLink</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/payment-center/">Payment Center</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/journal/">Checkout Journal</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">API Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="./">PayByLink API</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text"><a href="https://qtill.guides.qenta.com/" target="\"_blank\"">Checkout Enterprise</a></span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../securing-online-shop/">Securing the Online Shop</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Frontend Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../parameters/frontend/request-parameters/">Request</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../parameters/frontend/required-parameters/">Required</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../parameters/frontend/optional-parameters/">Optional</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../parameters/frontend/response-parameters/">Response</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../parameters/datastorage/">Data Storage</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Backend Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../parameters/backend/request-parameters/">Request</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../parameters/backend/required-parameters/">Required</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../parameters/backend/optional-parameters/">Optional</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../parameters/backend/response-parameters/">Response</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../parameters/detailed-description/">Detailed Description</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../parameters/error-codes/">Error Codes</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Demo/Test</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../demo-mode/">Demo</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../test-mode/">Test</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../backend/backend-operations/">Backend Operations</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../backend/categories/#transactionBasedOperations">Transaction-based</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../backend/transaction-based/">Available Operations</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../backend/by-payment-method/">Operations by Payment Method</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../backend/categories/#nonTransactionBasedOperations">Non-transaction-based</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../plugins/">Shop Plugins</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../payment-methods/">Payment Methods</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/circlek/">Circle K</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../payment-methods/credit-card/">Credit Card</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../payment-methods/3DS/">3D Secure/Recurring</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../payment-methods/mail-order/">Mail Order and Telephone Order</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/cvs/">CVS</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/dollar-general/">Dollar General</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/eps/">EPS</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/googlePayApi/">GooglePay</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/ideal/">iDeal</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/klarna/">Klarna</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/obucks/">oBucks</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/payolution/">Payolution</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../payment-methods/paypal-new/">PayPal</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../payment-methods/automatic-3rdparty-permission/">3rd Party Permissions</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/paysafecard/">Paysafecard</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/pagoefectivo/">PagoEfectivo</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/p24/">P24</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/riverty/">Riverty</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/safetypay/">Safetypay</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/sepa/">SEPA</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/Visa%20Click%20to%20Pay/">Visa Click to Pay</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../logos/">Logos</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../glossary/">Glossary</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../certificates/">Certificates</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../contact/">Contact</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../migration/">Migration</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">hobex Online Guides</span>
+    <span class="version">main</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="../../">hobex Online Guides</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../../">main</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../../" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../../">hobex Online Guides</a></li>
+    <li>API Solutions</li>
+    <li><a href="./">PayByLink API</a></li>
+  </ul>
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">PaybyLink API</h1>
+<div class="sect1">
+<h2 id="paybylinkAPI"><a class="anchor" href="#paybylinkAPI"></a>QPPaybyLinkBL API</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>hobex Service IT PayByLink API documentation.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="linkCreation"><a class="anchor" href="#linkCreation"></a>Link Creation</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The link can be controlled based on the request field and what customer see in the checkout can be adjusted.</p>
+</div>
+<div class="paragraph">
+<p>There are two types of links that provide different checkout options:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#createSimpleLink">Create a simple link</a> - the link is used when the merchant doesn&#8217;t have a basket and doesn&#8217;t need customer-specific shipping and billing data (except consumer e-mail) e.g. donations or membership fees for already existing customers.</p>
+</li>
+<li>
+<p><a href="#createComplexLink">Create a complex link</a> - the link is used if the merchant wants to provide and receive basket, shipping, and billing data from their customers.</p>
+</li>
+</ul>
+</div>
+<table class="tableblock frame-all grid-all stretch request-headers">
+<caption class="title">Table 1. Credentials</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Basic-Auth (Test)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Credentials that <a href="../../contact/" class="xref page" target="\"_blank\"">integration specialist</a> team provides.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Secret Key (Test)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Provided by the <a href="../../contact/" class="xref page" target="\"_blank\"">integration specialist</a> team.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Base-URL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>https://papi.hobex.at/link</code></p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch request-headers">
+<caption class="title">Table 2. Request Headers</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Content-Type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>application/json</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Authorization</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Basic &lt;Base64 encoded username and password&gt;</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">X-Signature</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://en.wikipedia.org/wiki/HMAC" target="\"_blank\"">HMAC-SHA512</a> hashed request body with the cryptographic secret key.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect2">
+<h3 id="createSimpleLink"><a class="anchor" href="#createSimpleLink"></a>Create a Simple Link</h3>
+<div class="paragraph">
+<p>To receive a payment link or a QR code for the link send a <span class="endpoint-method-post">POST</span> request to the /links endpoint:</p>
+</div>
+<div class="paragraph">
+<p><code>https://papi.hobex.at/link/links</code></p>
+</div>
+<div class="sect3">
+<h4 id="requestSimpleLink"><a class="anchor" href="#requestSimpleLink"></a>Request</h4>
+<div class="listingblock source_10">
+<div class="title">Initial Example Request</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-JSON hljs" data-lang="JSON">{
+    "amount": "55.00",
+    "basket": {
+        "basketItems": []
+    },
+    "currency": "EUR",
+    "customer": {
+        "billingFirstName": "",
+        "billingLastName": "",
+        "billingPhone": "",
+        "email": "test@hobex.at"
+    },
+    "description": "Test:0000",
+    "displayBasketData": false,
+    "displayBillingData": false,
+    "displayShippingData": false,
+    "enabled": true,
+    "expirationStatus": "Valid",
+    "expired": false,
+    "linkCallLimit": 0,
+    "linkValidFrom": "2023-04-01T12:00",
+    "linkValidTo": "2028-04-01T23:59",
+    "orderReference": "1234512345",
+    "paymentType": "SELECT",
+    "cancelUrl": "https://sit.hobex.at/cancel/",
+    "confirmUrl": "https://yourconfirm.com",
+    "serviceUrl": "https://yourimprint.com",
+    "merchantLogoUrl": "",
+    "successUrl": "https://sit.hobex.at/success/",
+    "failureUrl": "https://sit.hobex.at/failure/",
+    "paymenttypeSortOrder": "CCARD, PayPal, SOFORTUEBERWEISUNG, EPS",
+    "title": "Link_Title"
+}</code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Detailed description of parameters can be checked <a href="#requestParameters">here</a>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="responseSimpleLink"><a class="anchor" href="#responseSimpleLink"></a>Response</h4>
+<div class="paragraph">
+<p>The payment link and QR code will be received in the response.</p>
+</div>
+<div class="listingblock source_10">
+<div class="title">Initial Example Response</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-JSON hljs" data-lang="JSON">{
+    "id": "{linkId}",
+    "title": "Link_Title",
+    "description": "Test:0000",
+    "expirationStatus": "Valid",
+    "lastPaymentStatus": "No payments",
+    "amount": 55.00,
+    "sales": 0,
+    "orderStats": {
+        "total": 0,
+        "successful": 0,
+        "pending": 0,
+        "inProgress": 0,
+        "canceled": 0,
+        "failed": 0
+    },
+    "clicks": 0,
+    "createdAt": "2023-04-27T06:00:00.000+00:00",
+    "orderReference": "1234512345",
+    "linkValidFrom": "2023-04-01T12:00:00.000+00:00",
+    "linkValidTo": "2028-04-01T23:59:00.000+00:00",
+    "linkCallLimit": 1,
+    "maxRetries": 0,
+    "displayBasketData": false,
+    "displayShippingData": false,
+    "displayBillingData": false,
+    "paymentType": "SELECT",
+    "paymentTypes": "No payments",
+    "paymenttypeSortOrder": "CCARD, PayPal, SOFORTUEBERWEISUNG, EPS",
+    "language": "en",
+    "currency": "EUR",
+    "customer": {
+        "billingFirstName": "",
+        "billingLastName": "",
+        "email": "test@hobex.at",
+        "billingPhone": ""
+    },
+    "basket": {
+        "basketItems": []
+    },
+    "cancelUrl": "https://sit.hobex.at/cancel/",
+    "confirmUrl": "https://yourconfirm.com",
+    "serviceUrl": "https://yourimprint.com",
+    "merchantLogoUrl": "",
+    "successUrl": "https://sit.hobex.at/success/",
+    "failureUrl": "https://sit.hobex.at/failure/",
+    "merchantConfigId": "{merchantConfigId}",
+    "enabled": true,
+    "expired": false,
+    "qrCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQAAAACgl2eQAAABtklEQVR4Xu2ZUW7DIBBEkTiAj8TVOZIPYInOm7WjJK3S34zkVUJgefkY7TI4bVufY7b3zFvcQMUNVNxAhYHZFNvq+9D8YDE81l4MoPexaZx9Fzk7yzMfBEiUMl2ZXRNhQ2PjK3EA6lQy5WuZCSxp1GLto1tsHLDccmbGtTzzQYCP/zRzvf7why8HruC8kOtVNUcOgEx04caMmncab2QB3dJ8Xnx89lFYFGDjshXrQiSHG6M0CziUV5k8Hr5QtOP2iwI2TOws2eJy9CQMsMCh0Z3GHI02gSxApUIXybNM67knE4BVDvDoPQpHBcOAHSsGo9kGc1tZFIDG5ZKVUhhfLlEAJnz4iZFdEtNX5MgCCKQVxq7I155MAGi5USbAFYkVzF89+eXAdI3ILxqPI/PWkxmACiSNFrjsZss+kAYwVp4Jj4s0Xhagd+MHLMkSS8mczwEqUMdnPWu5glHARNVGBoG0X6smzAJWPZAgU94Fw85ry30/cFhXp16cemtsry6XA1y/ZI01e0IesB6VklL+Ij2ygEXLncCy2HplAWowH38u9Pb4v8DTtZgAfIobqLiBihuo+B/4ATVh6kzRA/0OAAAAAElFTkSuQmCC",
+    "linkUrl": "https://api.qenta.com/link/pbl/checkout/5e5b54ef-3c57-4142-ba69-dd80fd9ef70b"
+}</code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Detailed description of parameters can be checked <a href="#responseParameters">here</a>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="createComplexLink"><a class="anchor" href="#createComplexLink"></a>Create a Complex Link</h3>
+<div class="sect3">
+<h4 id="requestComplexLink"><a class="anchor" href="#requestComplexLink"></a>Request</h4>
+<div class="listingblock source_10">
+<div class="title">Initial Example Request</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-JSON hljs" data-lang="JSON">{
+    "amount": "55.00",
+    "basket": {
+        "basketItems": [
+            {
+                "articleNumber": "123",
+                "description": "Product Description",
+                "name": "Product",
+                "quantity": "1",
+                "unitGrossAmount": 55.0,
+                "unitNetAmount": 50.0,
+                "unitTaxAmount": 5.0,
+                "unitTaxRate": 10.0
+            }
+        ]
+    },
+    "currency": "EUR",
+    "customer": {
+        "billingAddress": {
+            "city": "Graz",
+            "country": "AT",
+            "countryState": "Steiermark",
+            "street": "Street 1",
+            "zipCode": "8020"
+        },
+        "billingAddress2": {
+            "street": ""
+        },
+        "billingAddress3": {
+            "street": ""
+        },
+        "billingFirstName": "Max",
+        "billingLastName": "Mustermann",
+        "billingPhone": "+4312345678",
+        "email": "test@test.com",
+        "shippingAddress": {
+            "city": "Graz",
+            "country": "AT",
+            "countryState": "Steiermark",
+            "street": "Street 1",
+            "zipCode": "8020"
+        },
+        "shippingAddress2": {
+            "street": ""
+        },
+        "shippingFirstName": "Max",
+        "shippingLastName": "Mustermann",
+        "shippingPhone": "+4312345678"
+    },
+    "description": "Test:0000",
+    "displayBasketData": true,
+    "displayBillingData": true,
+    "displayShippingData": true,
+    "enabled": true,
+    "expirationStatus": "Valid",
+    "expired": false,
+    "linkCallLimit": 0,
+    "linkValidFrom": "2023-04-01T12:00",
+    "linkValidTo": "2028-04-01T23:59",
+    "maxRetries": 0,
+    "orderReference": "1234512345",
+    "paymentType": "SELECT",
+    "cancelUrl": "https://sit.hobex.at/cancel/",
+    "confirmUrl": "https://yourconfirm.com",
+    "serviceUrl": "https://yourimprint.com",
+    "merchantLogoUrl": "",
+    "successUrl": "https://sit.hobex.at/success/",
+    "failureUrl": "https://sit.hobex.at/failure/",
+    "paymenttypeSortOrder": "CCARD, PayPal, SOFORTUEBERWEISUNG, EPS",
+    "title": "Link_Title"
+}</code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Detailed description of parameters can be checked <a href="#requestParameters">here</a>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="responseComplexLink"><a class="anchor" href="#responseComplexLink"></a>Response</h4>
+<div class="paragraph">
+<p>The payment link and QR code will be received in the response.</p>
+</div>
+<div class="listingblock source_10">
+<div class="title">Initial Example Response</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-JSON hljs" data-lang="JSON">{
+    "id": "{linkId}",
+    "title": "Link_Title",
+    "description": "Test:0000",
+    "expirationStatus": "Valid",
+    "lastPaymentStatus": "No payments",
+    "amount": 55.00,
+    "sales": 0,
+    "orderStats": {
+        "total": 0,
+        "successful": 0,
+        "pending": 0,
+        "inProgress": 0,
+        "canceled": 0,
+        "failed": 0
+    },
+    "clicks": 0,
+    "createdAt": "2023-04-27T06:00:00.000+00:00",
+    "orderReference": "1234512345",
+    "linkValidFrom": "2023-04-01T12:00:00.000+00:00",
+    "linkValidTo": "2028-04-01T23:59:00.000+00:00",
+    "linkCallLimit": 0,
+    "maxRetries": 0,
+    "displayBasketData": true,
+    "displayShippingData": true,
+    "displayBillingData": true,
+    "paymentType": "SELECT",
+    "paymentTypes": "No payments",
+    "paymenttypeSortOrder": "CCARD, PayPal, SOFORTUEBERWEISUNG, EPS",
+    "language": "en",
+    "currency": "EUR",
+    "customer": {
+        "billingFirstName": "Max",
+        "billingLastName": "Mustermann",
+        "shippingFirstName": "Max",
+        "shippingLastName": "Mustermann",
+        "billingAddress": {
+            "street": "Street 1",
+            "city": "Graz",
+            "zipCode": "8020",
+            "country": "AT",
+            "countryState": "Steiermark"
+        },
+        "billingAddress2": {
+            "street": ""
+        },
+        "billingAddress3": {
+            "street": ""
+        },
+        "shippingAddress": {
+            "street": "Street 1",
+            "city": "Graz",
+            "zipCode": "8020",
+            "country": "AT",
+            "countryState": "Steiermark"
+        },
+        "shippingAddress2": {
+            "street": ""
+        },
+        "email": "test@test.com",
+        "billingPhone": "+4312345678",
+        "shippingPhone": "+4312345678"
+    },
+    "basket": {
+        "basketItems": [
+            {
+                "name": "Product",
+                "articleNumber": "123",
+                "description": "Product Description",
+                "quantity": 1,
+                "unitGrossAmount": 55.00,
+                "unitTaxAmount": 5.00,
+                "unitTaxRate": 10.0,
+                "unitNetAmount": 50.0
+            }
+        ]
+    },
+    "cancelUrl": "https://sit.hobex.at/cancel/",
+    "confirmUrl": "https://yourconfirm.com",
+    "serviceUrl": "https://yourimprint.com",
+    "merchantLogoUrl": "",
+    "successUrl": "https://sit.hobex.at/success/",
+    "failureUrl": "https://sit.hobex.at/failure/",
+    "merchantConfigId": "{merchantConfigId}",
+    "enabled": true,
+    "expired": false,
+    "qrCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQAAAACgl2eQAAABvklEQVR4Xu2YUY6DMAxEI3GAHilXz5E4AJJ33phuUVfq/nYkrIDAeXyMxk6AUZ9jjffMW9xAxw103ECHgTUUjzUeXG+MOkj1XAyg43iUpoQdY/Zt54MAiVJmjKlRO+cD1ZGAktsui6bOuUC1ZfuQa4nA75QulLdZZz4IoNUfSHsNUj2XAnSo3rrYqqz3zMYA9AtmUXsw1djFrAhgUG9Ts3QQLlmv1+QgwLdjYxFW75fLDbFRgHofpuwOeqm66b0+CZCic+2yWW7/eZWZACys8dliUarhJ5OADZnd/gSMjYsC6nC/IK2HJR+vzT0DcIa3xLPqvC22cUGA8nKH4WJT+wu4dlYEcC5ZO9KwSbOU3IoClgBrHO4dZPb3YBigPNsHs5LZNnUEAVQauuiabh8bN7MAT3kTwS9WM5x6NU4GoKOcdLFh3HDhZQHcomsCPzeUq1kJQIcsG091y7dZAKKGf5LglzfEg98LfiwH0HEAwJyWaebPT5IvB1DnV3cJLH9SKUzmAWr86s2d67qalQNUS2Md1lLGy/ybWd8OFCW38MtnAeWP9CwAh/g2n+SZHb2CRQGf4gY6bqDjBjr+B34AyJOJDtJVUa0AAAAASUVORK5CYII=",
+    "linkUrl": "https://api.qenta.com/link/pbl/checkout/c7910e30-ad50-4fe7-9ab7-eff841b63ffb"
+}</code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Detailed description of parameters can be checked <a href="#responseParameters">here</a>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="gatherLinkInformation"><a class="anchor" href="#gatherLinkInformation"></a>Gather Link Information</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>There are two ways for gathering information about created links and orders/payments:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#dataTransferObject">Data transfer object from link by ID</a> - general information from link</p>
+</li>
+<li>
+<p><a href="#ordersForLink">Orders for link</a> - information about every order and/or payment</p>
+</li>
+</ul>
+</div>
+<table class="tableblock frame-all grid-all stretch request-headers">
+<caption class="title">Table 3. Credentials</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Basic-Auth (Test)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Credentials that <a href="../../contact/" class="xref page" target="\"_blank\"">integration specialist</a> team provides.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Base-URL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>https://papi.hobex.at/link</code></p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch request-headers">
+<caption class="title">Table 4. Request Headers</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Content-Type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>application/json</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Authorization</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Basic &lt;Base64 encoded username and password&gt;</code></p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect2">
+<h3 id="dataTransferObject"><a class="anchor" href="#dataTransferObject"></a>Data Transfer Object from Link by ID</h3>
+<div class="paragraph">
+<p>For more information about a link send a <span class="endpoint-method-get">GET</span> request to the base URL and include the link ID. ID was provided in the initial response for creating a link and the path for orders (/links/{id}):</p>
+</div>
+<div class="paragraph">
+<p><code>https://papi.hobex.at/link/links/{id}</code></p>
+</div>
+<div class="sect3">
+<h4 id="responseExampleTransferObject"><a class="anchor" href="#responseExampleTransferObject"></a>Response Example</h4>
+<div class="listingblock source_10">
+<div class="title">Response</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-JSON hljs" data-lang="JSON">	{
+    "id": "{linkId}",
+    "title": "Link_Title",
+    "description": "Test:0000",
+    "expirationStatus": "Valid",
+    "lastPaymentStatus": "No payments",
+    "amount": 55.00,
+    "sales": 0,
+    "orderStats": {
+        "total": 0,
+        "successful": 0,
+        "pending": 0,
+        "inProgress": 0,
+        "canceled": 0,
+        "failed": 0
+    },
+    "clicks": 0,
+    "createdAt": "2023-04-27T06:00:00.000+00:00",
+    "orderReference": "1234512345",
+    "linkValidFrom": "2023-04-01T12:00:00.000+00:00",
+    "linkValidTo": "2028-04-01T23:59:00.000+00:00",
+    "linkCallLimit": 0,
+    "maxRetries": 0,
+    "displayBasketData": true,
+    "displayShippingData": true,
+    "displayBillingData": true,
+    "paymentType": "SELECT",
+    "paymentTypes": "No payments",
+    "paymenttypeSortOrder": "CCARD, PayPal, SOFORTUEBERWEISUNG, EPS",
+    "language": "en",
+    "currency": "EUR",
+    "customer": {
+        "billingFirstName": "Max",
+        "billingLastName": "Mustermann",
+        "shippingFirstName": "Max",
+        "shippingLastName": "Mustermann",
+        "billingAddress": {
+            "street": "Street 1",
+            "city": "Graz",
+            "zipCode": "8020",
+            "country": "AT",
+            "countryState": "Steiermark"
+        },
+        "billingAddress2": {
+            "street": ""
+        },
+        "billingAddress3": {
+            "street": ""
+        },
+        "shippingAddress": {
+            "street": "Street 1",
+            "city": "Graz",
+            "zipCode": "8020",
+            "country": "AT",
+            "countryState": "Steiermark"
+        },
+        "shippingAddress2": {
+            "street": ""
+        },
+        "email": "test@test.com",
+        "billingPhone": "+4312345678",
+        "shippingPhone": "+4312345678"
+    },
+    "basket": {
+        "basketItems": [
+            {
+                "name": "Product",
+                "articleNumber": "123",
+                "description": "Product Description",
+                "quantity": 1,
+                "unitGrossAmount": 55.00,
+                "unitTaxAmount": 5.00,
+                "unitTaxRate": 10.000,
+                "unitNetAmount": 50.00
+            }
+        ]
+    },
+    "cancelUrl": "https://sit.hobex.at/cancel/",
+    "confirmUrl": "https://yourconfirm.com",
+    "serviceUrl": "https://yourimprint.com",
+    "merchantLogoUrl": "",
+    "successUrl": "https://sit.hobex.at/success/",
+    "failureUrl": "https://sit.hobex.at/failure/",
+    "merchantConfigId": "{merchantConfigId}",
+    "enabled": true,
+    "expired": false,
+    "qrCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQAAAACgl2eQAAABuklEQVR4Xu2Yy43jMBBECTAAhaTUGZICINDbr0qD0fowc50C1KANqfh4aPSP9qifbY1P5cNewPYCthewCVij7VjjKK9ZtZG8FwP0Zx+9Fpj0frUeBLRTrczrHOPs9/42nAj0IkLHmtfIBUrRqeucrQQCpRybbKl2CNatBwGO0X4uJO+lALZF4agJ1PVQYwBXCh243AH0Wo9gJQA9PiR2dK7hVsYRNbQgAO/oXWz1g9INOAqgX7VfUhaT/fARjuYAem07HLVT5U/4ogC6VjHTybetqPXSySAA75RsMPZuqvajgGXRu4SpZcY9TA5AE+aW0qoybWssUkpJAG46x6b62KaC7qglAdyvbtc0SoZE9BzAycYopF7oAHf4sgBa8fcV5Q6TLQegFTtG/U03U/k4CYOAYhcdRuVDpP6vrAiAfLuTrb0u4McdJgJAxMeTIUKM1iBwZxRgu0V5t0pHogC2uJ98zRGKiL8XfCwG6I+SjSbmYLHzvMMkANvXqq8+vHF7iAwE9DD0PBn3FQiUZ0q5lfVk+QzWXweKlFsWN4vca3+zACKk/zy3fkwp686S5QA/2QvYXsD2ArbfgX+HOoq+BMD9uwAAAABJRU5ErkJggg==",
+    "linkUrl": "https://api.qenta.com/link/pbl/checkout/0bbc89de-ef46-4b01-a225-972b552c976e"
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="ordersForLink"><a class="anchor" href="#ordersForLink"></a>Orders for Link</h3>
+<div class="paragraph">
+<p>For more information about every order/payment processed with a link send a <span class="endpoint-method-get">GET</span> request to the base URL and include the link ID. ID was provided in the initial response for creating a link and the path for orders (/links/{id}/orders):</p>
+</div>
+<div class="paragraph">
+<p><code>https://papi.hobex.at/link/links/{id}/orders</code></p>
+</div>
+<div class="sect3">
+<h4 id="responseExampleOrdersForLink"><a class="anchor" href="#responseExampleOrdersForLink"></a>Response Example</h4>
+<div class="listingblock source_10">
+<div class="title">Response</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-JSON hljs" data-lang="JSON">{
+    "items": [
+        {
+            "id": "{orderId}",
+            "linkConfigId": "{linkId}",
+            "amount": 55.00,
+            "currency": "EUR",
+            "paymentType": {
+                "id": 3,
+                "name": "CCARD",
+                "description": "Credit Card, Maestro SecureCode"
+            },
+            "financialInstitution": "Visa",
+            "language": "de",
+            "orderNumber": "13425114",
+            "paymentState": {
+                "id": 1,
+                "state": "SUCCESS"
+            },
+            "orderDescription": "Test:0000",
+            "purchaseInformation": {
+                "additionalParameters": [],
+                "orderDescription": "Test:0000",
+                "orderReference": "123451234557226",
+                "consumerIpAddress": "10.137.4.3",
+                "consumerUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0",
+                "customerStatement": "123451234557226",
+                "consumerBillingFirstName": "Max",
+                "consumerShippingFirstName": "Max",
+                "consumerBillingLastName": "Mustermann",
+                "consumerShippingLastName": "Mustermann",
+                "consumerEmail": "test@test.com",
+                "consumerBillingAddress1": "Street 1",
+                "consumerShippingAddress1": "Street 1",
+                "consumerBillingCity": "Graz",
+                "consumerShippingCity": "Graz",
+                "consumerBillingCountry": "AT",
+                "consumerShippingCountry": "AT",
+                "consumerBillingZipCode": "8020",
+                "consumerShippingZipCode": "8020",
+                "basketItem": [
+                    {
+                        "name": "Product",
+                        "articleNumber": "123",
+                        "description": "Product Description",
+                        "quantity": 1,
+                        "unitGrossAmount": 55.00,
+                        "unitTaxAmount": 5.00,
+                        "unitTaxRate": 10.000,
+                        "unitNetAmount": 50.00
+                    }
+                ],
+                "basketItems": "1",
+                "consumerBillingAddress2": "",
+                "consumerBillingState": "Steiermark",
+                "consumerShippingAddress2": "",
+                "consumerShippingState": "Steiermark",
+                "consumerShippingPhone": "+4312345678",
+                "consumerBirthDate": "2002-04-27"
+            },
+            "timestamp": "2023-04-27T13:11:00.000+00:00",
+            "createdAt": "2023-04-27T13:10:00.000+00:00"
+        },
+        {
+            "id": "{orderId}",
+            "linkConfigId": "{linkId}",
+            "amount": 55.00,
+            "currency": "EUR",
+            "paymentType": {
+                "id": 3,
+                "name": "CCARD",
+                "description": "Credit Card, Maestro SecureCode"
+            },
+            "financialInstitution": "MC",
+            "language": "de",
+            "orderNumber": "7430895",
+            "paymentState": {
+                "id": 1,
+                "state": "SUCCESS"
+            },
+            "orderDescription": "Test:0000",
+            "purchaseInformation": {
+                "additionalParameters": [],
+                "orderDescription": "Test:0000",
+                "orderReference": "123451234519526",
+                "consumerIpAddress": "10.137.4.18",
+                "consumerUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0",
+                "customerStatement": "123451234519526",
+                "consumerBillingFirstName": "Max",
+                "consumerShippingFirstName": "Max",
+                "consumerBillingLastName": "Mustermann",
+                "consumerShippingLastName": "Mustermann",
+                "consumerEmail": "test@test.com",
+                "consumerBillingAddress1": "Street 1",
+                "consumerShippingAddress1": "Street 1",
+                "consumerBillingCity": "Graz",
+                "consumerShippingCity": "Graz",
+                "consumerBillingCountry": "AT",
+                "consumerShippingCountry": "AT",
+                "consumerBillingZipCode": "8020",
+                "consumerShippingZipCode": "8020",
+                "basketItem": [
+                    {
+                        "name": "Product",
+                        "articleNumber": "123",
+                        "description": "Product Description",
+                        "quantity": 1,
+                        "unitGrossAmount": 55.00,
+                        "unitTaxAmount": 5.00,
+                        "unitTaxRate": 10.000,
+                        "unitNetAmount": 50.00
+                    }
+                ],
+                "basketItems": "1",
+                "consumerBillingAddress2": "",
+                "consumerBillingState": "Steiermark",
+                "consumerShippingAddress2": "",
+                "consumerShippingState": "Steiermark",
+                "consumerShippingPhone": "+4312345678",
+                "consumerBirthDate": "2002-04-27"
+            },
+            "timestamp": "2023-04-27T13:18:00.000+00:00",
+            "createdAt": "2023-04-27T13:17:00.000+00:00"
+        }
+    ],
+    "currentPage": 0,
+    "totalItems": 2,
+    "totalPages": 1
+}</code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Detailed descriptions for parameters from the example are <a href="#orderRelatedResponse">here</a>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="postProcessCommands"><a class="anchor" href="#postProcessCommands"></a>Post-Process Commands for Created Links</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>With the following commands, the merchant is able to alter the accessibility of their links, which are already created:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#disableLinkId">Disable link by ID</a> - PUT call for deactivation of an existing link.</p>
+</li>
+<li>
+<p><a href="#reactiveLinkId">Reactivate link by ID</a> - PUT call for reactivation an existing link.</p>
+</li>
+<li>
+<p><a href="#deleteLinkId">Delete link by ID</a> - DELETE call for completely deleting an existing link.</p>
+</li>
+</ul>
+</div>
+<table class="tableblock frame-all grid-all stretch request-headers">
+<caption class="title">Table 5. Credentials</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Basic-Auth (Test)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Credentials that <a href="../../contact/" class="xref page" target="\"_blank\"">integration specialist</a> team provides.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Base-URL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>https://papi.hobex.at/link</code></p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch request-headers">
+<caption class="title">Table 6. Request Headers</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Content-Type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>application/json</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Authorization</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Basic &lt;Base64 encoded username and password&gt;</code></p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect2">
+<h3 id="disableLinkId"><a class="anchor" href="#disableLinkId"></a>Disable Link by ID</h3>
+<div class="paragraph">
+<p><span class="endpoint-method-put">PUT</span> request with whom the active link can be disabled, so the consumer is not able to call the link again. To check if a link is enabled or not the data transfer object from the link by ID command should be executed. In the response, the merchant will receive the parameter enabled with the value <code>true</code> or <code>false</code>.</p>
+</div>
+<div class="paragraph">
+<p>Send a <span class="endpoint-method-put">PUT</span> request to the base URL and include the link ID, which was provided in the initial response for creating a link and the correct path (/links/disable/”id”).</p>
+</div>
+<div class="paragraph">
+<p><code>https://papi.hobex.at/link/links/disable/{id}</code></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="reactiveLinkId"><a class="anchor" href="#reactiveLinkId"></a>Reactivate Link by ID</h3>
+<div class="paragraph">
+<p><span class="endpoint-method-put">PUT</span> request with whom the active link can be reactivated using the link ID.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+To check, if a link is disabled or not, send a <a href="#dataTransferObject">data transfer object from link by ID</a> request first and check the response field <code>expirationStatus</code>. If the value "Deactivated" is returned, the link is disabled and can be reactivated. If the returned value is "Expired", the link can&#8217;t be reactivated anymore.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>If a link has already expired (expiry date for <code>linkValidTo</code> has passed), the link is not reachable either, even if the state "enabled" with the value "false" is set.</p>
+</div>
+<div class="paragraph">
+<p>Send a <span class="endpoint-method-put">PUT</span> request to the base URL and include the link ID, which was provided in the initial response for creating a link and the correct path (/links/reactivate/”id”).</p>
+</div>
+<div class="paragraph">
+<p><code>https://papi.hobex.at/link/links/reactivate/{id}</code></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="deleteLinkId"><a class="anchor" href="#deleteLinkId"></a>Delete Link by ID</h3>
+<div class="paragraph">
+<p><span class="endpoint-method-delete">DELETE</span> call with whom the link is completely deleted.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+If this command is executed, the information from the link can&#8217;t be gathered anymore.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Send a <span class="endpoint-method-delete">DELETE</span> request to the base URL and include the link ID, which was provided in the initial response for creating a link and the correct path (/links/”id”).</p>
+</div>
+<div class="paragraph">
+<p><code>https://papi.hobex.at/link/links/{id}</code></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="batchCommands"><a class="anchor" href="#batchCommands"></a>Batch Commands</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>With these commands, more than one link at once can be disabled or deleted.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#disableBatch">Disable batch</a> - PUT call for deactivation of a batch of existing links.</p>
+</li>
+<li>
+<p><a href="#deleteBatch">Delete batch</a> - DELETE call for completely deleting a batch of existing links.</p>
+</li>
+</ul>
+</div>
+<table class="tableblock frame-all grid-all stretch request-headers">
+<caption class="title">Table 7. Credentials</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Basic-Auth (Test)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Credentials that <a href="../../contact/" class="xref page" target="\"_blank\"">integration specialist</a> team provides.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Base-URL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>https://papi.hobex.at/link</code></p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch request-headers">
+<caption class="title">Table 8. Request Headers</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Content-Type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>application/json</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Authorization</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Basic &lt;Base64 encoded username and password&gt;</code></p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect2">
+<h3 id="disableBatch"><a class="anchor" href="#disableBatch"></a>Disable Batch</h3>
+<div class="paragraph">
+<p><span class="endpoint-method-put">PUT</span> request with whom more than one link can be disabled at once using link IDs.</p>
+</div>
+<div class="paragraph">
+<p>Provide the link IDs in the request body and send a <span class="endpoint-method-put">PUT</span> request to the base URL and the correct path (/links/disable).</p>
+</div>
+<div class="paragraph">
+<p><code>https://papi.hobex.at/link/links/disable</code></p>
+</div>
+<div class="listingblock source_10">
+<div class="title">Example</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-json hljs" data-lang="json">[
+    "{id}",
+    "{id}",
+    "{id}"
+]</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="deleteBatch"><a class="anchor" href="#deleteBatch"></a>Delete Batch</h3>
+<div class="paragraph">
+<p><span class="endpoint-method-delete">DELETE</span> call with whom more than one link can be deleted at once using link IDs.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+If this command is executed, the information from the link can&#8217;t be gathered anymore.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Send a HTTP <span class="endpoint-method-delete">DELETE</span>  request to the base URL and include the link ID, which was provided in the initial response for creating a link and the correct path (/links/delete).</p>
+</div>
+<div class="paragraph">
+<p><code>https://papi.hobex.at/link/links/delete</code></p>
+</div>
+<div class="listingblock source_10">
+<div class="title">Example</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-json hljs" data-lang="json">[
+    "{id}",
+    "{id}",
+    "{id}"
+]</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="parameters"><a class="anchor" href="#parameters"></a>PBL API Parameters</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="requestParameters"><a class="anchor" href="#requestParameters"></a>Request Parameters</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>title</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Title of the link that will be shown in the portal description.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>description</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Request parameter <code><a href="../../parameters/frontend/required-parameters/#requiredSeamlessPage" class="xref page" target="\"_blank\"">orderDescription</a></code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>currency</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Currency of the requested amount. Request parameter <code><a href="../../parameters/frontend/required-parameters/#requiredSeamlessPage" class="xref page" target="\"_blank\"">currency</a></code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>orderReference</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Request parameter <code><a href="../../parameters/frontend/optional-parameters/#highlyRecommendedOptionalParameters" class="xref page" target="\"_blank\"">orderReference</a></code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>customReference</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Custom parameter, that is determined by the merchant. This parameter will always be returned, if confirmUrl is passed.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>linkValidFrom</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Determines date and time from when the link is valid.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>linkValidTo</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Determines date and time until the link is valid.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>linkCallLimit</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Determines how many times a link can be called.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>successfulPaymentsLimit</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Determines how many successful payments can be completed.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>displayBasketData</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Determines if basket data are shown in the checkout or not. <strong>If the consumer data are not needed, set to "false" for a simple link.</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>displayBillingData</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Determines if customer shipping data are shown in the checkout or not (will be shown anyway if it is sent within customer parameters).</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>displayShippingData</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Determines if customer shipping data are shown in the checkout or not (will be shown anyway if it is sent within customer parameters).</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>enabled</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Shows if a link is enabled/accessible or not.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>paymentType</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Request parameter <code><a href="../../parameters/frontend/required-parameters/#requiredSeamlessPage" class="xref page" target="\"_blank\"">paymentType</a></code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>paymenttypeSortOrder</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Determines the sort order of payment types, shown on the checkout page.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>amount</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Amount to pay - needs to be sent, if the merchant doesn&#8217;t provide basket fields. Request parameter <code><a href="../../parameters/frontend/required-parameters/#requiredSeamlessPage" class="xref page" target="\"_blank\"">amount</a></code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>customer</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Customer specific parameters - either provided in the request or entered by customers.
+Request parameters for <a href="../../parameters/frontend/optional-parameters/#ConsumerShippingData" class="xref page" target="\"_blank\"">consumerShipping</a> and <a href="../../parameters/frontend/optional-parameters/#consumerBillingData" class="xref page" target="\"_blank\"">consumerBilling</a>:<br>
+<span class="list-margin"><code>"billingAddress":</code></span></p>
+<p class="tableblock"><span class="list-margin"><code>"city"</code></span><br>
+<span class="list-margin"><code>"country"</code></span><br>
+<span class="list-margin"><code>"countryState"</code></span><br>
+<span class="list-margin"><code>"street"</code></span><br>
+<span class="list-margin"><code>"zipCode"</code></span></p>
+<p class="tableblock"><span class="list-margin"><code>"billingAddress2":</code></span><br>
+<span class="list-margin"><code>"street"</code></span><br></p>
+<p class="tableblock"><span class="list-margin"><code>"billingAddress3":</code></span><br>
+<span class="list-margin"><code>"street"</code></span><br></p>
+<p class="tableblock"><span class="list-margin"><code>"billingFirstName"</code></span><br>
+<span class="list-margin"><code>"billingLastName"</code></span><br>
+<span class="list-margin"><code>"billingPhone"</code></span><br>
+<span class="list-margin"><code>"email"</code></span><br>
+<span class="list-margin"><code>"shippingAddress":</code></span><br>
+<span class="list-margin"><code>"city"</code></span><br>
+<span class="list-margin"><code>"country"</code></span><br>
+<span class="list-margin"><code>"countryState"</code></span><br>
+<span class="list-margin"><code>"street"</code></span><br>
+<span class="list-margin"><code>"zipCode"</code></span><br></p>
+<p class="tableblock"><span class="list-margin"><code>"shippingAddress2":</code></span><br>
+<span class="list-margin"><code>"street"</code></span><br></p>
+<p class="tableblock"><span class="list-margin"><code>"shippingFirstName"</code></span><br>
+<span class="list-margin"><code>"shippingLastName"</code></span><br>
+<span class="list-margin"><code>"shippingPhone"</code></span><br></p>
+<p class="tableblock">Request Parameters <a href="../../parameters/frontend/optional-parameters/#shoppingBasket" class="xref page" target="\"_blank\"">basketItems</a>:<br>
+<span class="list-margin"><code>"basketItems"</code></span><br>
+<span class="list-margin"><code>"articleNumber"</code></span><br>
+<span class="list-margin"><code>"description"</code></span><br>
+<span class="list-margin"><code>"name"</code></span><br>
+<span class="list-margin"><code>"quantity"</code></span><br>
+<span class="list-margin"><code>"unitGrossAmount"</code></span><br>
+<span class="list-margin"><code>"unitNetAmount"</code></span><br>
+<span class="list-margin"><code>"unitTaxAmount"</code></span><br>
+<span class="list-margin"><code>"unitTaxRate"</code></span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>successUrl</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">URL of online shop where the consumer is forwarded when the payment process has been completed successfully. Request parameter <code><a href="../../parameters/frontend/required-parameters/#requiredSeamlessPage" class="xref page" target="\"_blank\"">successUrl</a></code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>cancelUrl</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">URL of the page where consumer is forwarded when the payment process has been canceled. Request parameter <code><a href="../../parameters/frontend/required-parameters/#requiredSeamlessPage" class="xref page" target="\"_blank\"">cancelUrl</a></code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>failureUrl</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">URL of online shop where consumer is forwarded when the payment process has failed for any reason. Request parameter <code><a href="../../parameters/frontend/required-parameters/#requiredSeamlessPage" class="xref page" target="\"_blank\"">failureUrl</a></code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>serviceUrl</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">URL of a web page in an online shop that informs the consumer about the different possibilities to get in contact with the merchant. Request parameter <code><a href="../../parameters/frontend/required-parameters/#requiredSeamlessPage" class="xref page" target="\"_blank\"">serviceUrl</a></code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>merchantLogoUrl</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">URL to an image on the web server, that will be displayed during the payment process. Request parameter <code><a href="../../parameters/frontend/optional-parameters/#additionallyOptionalForPage" class="xref page" target="\"_blank\"">imageURL</a></code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>linkFailureUrl</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">URL provided by the merchant where the consumer is forwarded if the link is erroneous. (Eg. Link expired, invalid, etc.)`.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>confirmUrl</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">URL of the online shop where hobex sends a server-to-server confirmation</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="responseParameters"><a class="anchor" href="#responseParameters"></a>Response Parameters</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>id</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Link ID created by hobex Service IT.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>expirationStatus</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Status that are showing if the link is still available to call or not.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>lastAccess</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date and time of the last time the link has been called.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>lastPayment</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date and time of the last successful payment of the link.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>lastPaymentStatus</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>The last payment status can be:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>“No payments”</code>,</p>
+</li>
+<li>
+<p><code>“Not paid”</code> or</p>
+</li>
+<li>
+<p><code>“Paid”</code>.</p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>amount</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Amount to pay within the link.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>sales</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sum of all successful payment amounts made with the link.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>orderStats</code></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Shows the sums of transactions, depending on their states:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>"total"</code> - sum of all transactions, processed with the link.</p>
+</li>
+<li>
+<p><code>"successful"</code> - sum of all successful transactions, processed with the link.</p>
+</li>
+<li>
+<p><code>"pending"</code> - sum of all transactions, processed with the link, where the payment state has not been provided yet by the financial institution.</p>
+</li>
+<li>
+<p><code>"inProgress"</code> - sum of all transactions, processed with the link, where the customer has not finished the payment yet.</p>
+</li>
+<li>
+<p><code>"canceled"</code> - sum of all transactions, processed with the link, where customers have canceled the payment.</p>
+</li>
+<li>
+<p><code>"failed"</code> - sum of all failed transactions, processed with the link, where the payment has been declined by financial institutions or failed due to technical issues.</p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>clicks</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Number of how many times a link has been clicked/called.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>createdAt</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date and time the link has been created.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>paymentTypes</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Payment type used by the customer.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="orderRelatedResponse"><a class="anchor" href="#orderRelatedResponse"></a>Order Related Response Parameters</h3>
+<div class="paragraph">
+<p>Parameters that will be received for gathering order specific commands (<a href="#ordersForLink">Orders for Link</a>).</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Parameter</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code><a href="../../parameters/detailed-description/#financialInstitution" class="xref page" target="\"_blank\"">financialInstitution</a></code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The financial institution, chosen by the customer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>language</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The language on the checkout page, chosen by the customer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>orderNumber</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Payment related <a href="../../parameters/detailed-description/#orderNumber" class="xref page" target="\"_blank\"">orderNumber</a>, created by the hobex Service IT.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" rowspan="2"><p class="tableblock"><code>paymentState</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fields that are indicating whether the payment was successful or not<br></p>
+<p class="tableblock"><code>id</code> - every state has a specific id:<br>
+<code>SUCCESS</code>=1,<br>
+<code>CANCEL</code>=5,<br>
+<code>FAILURE</code>=7,<br>
+in progress=9<br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>state</code> - indicates the state itself (<code>SUCCESS</code>, <code>CANCEL</code>, <code>FAILURE</code>, <code>IN_PROGRESS</code>)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code><a href="../../parameters/detailed-description/#orderDescription" class="xref page">orderDescription</a></code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description of the order.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>purchaseInformation</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Consumer related parameter fields:<br>
+<code>additionalParameters</code><br>
+<code>orderDescription</code><br>
+<code>orderReference</code><br>
+<code>customerStatement</code><br>
+<code>basketItems</code> - Quantity of items in the basket.<br>
+<code>consumerIpAddress</code> - IP address of consumer&#8217;s device.<br>
+<code>consumerUserAgent</code> - User Agent that consumers have used.<br>
+<code>consumerBillingFirstName</code><br>
+<code>consumerShippingFirstName</code><br>
+<code>consumerBillingLastName</code><br>
+<code>consumerShippingLastName</code><br>
+<code>consumerEmail</code><br>
+<code>consumerBillingAddress1</code><br>
+<code>consumerShippingAddress1</code><br>
+<code>consumerBillingCity</code><br>
+<code>consumerShippingCity</code><br>
+<code>consumerBillingCountry</code><br>
+<code>consumerShippingCountry</code><br>
+<code>consumerBillingZipCode</code><br>
+<code>consumerShippingZipCode</code><br>
+<code>consumerBillingAddress2</code><br>
+<code>consumerBillingState</code><br>
+<code>consumerShippingAddress2</code><br>
+<code>consumerShippingState</code><br>
+<code>consumerShippingPhone</code><br>
+<code>consumerBirthDate</code><br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">basketItem</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contains more details about the basket fields:<br>
+<code>name</code> - Name of the product.<br>
+<code>articleNumber</code> - Number of the article.<br>
+<code>description</code> - Product description.<br>
+<code>quantity</code> - Quantity of products.<br>
+<code>unitGrossAmount</code> - Gross amount of one product.<br>
+<code>unitTaxAmount</code> - Tax amount of one product.<br>
+<code>unitTaxRate</code> - Tax rate of one product.<br>
+<code>unitNetAmount</code> - Net amount of one product.<br></p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Detailed description of the consumer data parameters are <a href="../../parameters/frontend/optional-parameters/#consumerData" class="xref page" target="\"_blank\"">here</a>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer qenta">
+  <div class="uk-section-secondary uk-section">
+    <div class="uk-container">
+      <div class="tm-grid-expand uk-grid-large uk-grid-margin-large uk-grid" uk-grid="">
+        <div class="uk-width-1-3@m uk-first-column">
+          <div class="uk-position-relative uk-margin" style="left: 0px; bottom: 20px;">
+            <a class="el-link" href="#2" uk-scroll=""><img class="el-image" alt="" uk-img=""
+                src="https://sit.hobex.at/wp-content/themes/yootheme/cache/hobex-logo-cmyk-e8548fa7.jpeg" width="160"></a>
+          </div>
+          <div class="uk-panel uk-text-meta uk-position-relative" style="bottom: 20px;">
+            <p>©2025 - HOBEX SERVICE IT GMBH</p>
+          </div>
+        </div>
+        <div class="uk-width-2-3@m">
+          <div class="uk-text-right">
+            <ul class="uk-margin-remove-bottom uk-subnav uk-flex-right" uk-margin="">
+              <li class="el-item uk-first-column">
+                <a class="el-link" href="https://sit.hobex.at/">COMPANY</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/merchant-login/">MERCHANT LOGIN</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/payment-solutions/">SOLUTIONS</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/contact/">CONTACT</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://guides.qenta.com" target="_blank">ONLINE GUIDES</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/download-center/">DOWNLOAD CENTER</a>
+              </li>
+            </ul>
+          </div>
+          <div class="uk-text-right">
+            <ul class="uk-margin-remove-bottom uk-subnav uk-flex-right" uk-margin="">
+              <li class="el-item uk-first-column">
+                <a class="el-link" href="https://sit.hobex.at/en/imprint/">IMPRINT</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://guides.qenta.com/protection-personal-data/data-protection-en/">DATA PROTECTION</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/terms-and-conditions/">T&C</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script id="site-script" src="/_/js/site.js" data-ui-root-path="../../../../_"></script>
+<script async src="/_/js/vendor/highlight.js"></script>
+<script src="/_/js/vendor/lunr.js"></script>
+<script src="/_/js/search-ui.js" id="search-ui-script" data-site-root-path="../../../.." data-snippet-length="100" data-stylesheet="../../../../_/css/search.css"></script>
+<script async src="../../../../search-index.js"></script>
+  </body>
+</html>
