@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Available Transaction-Based Operations :: hobex Online Guides</title>
+    <link rel="canonical" href="https://guides.qenta.com/online-guides/main/backend/transaction-based/">
+    <meta name="generator" content="Antora 3.1.12">
+    <link rel="stylesheet" href="/_/css/site.css">
+<link rel="stylesheet" href="/_/css/search.css">
+<link rel="stylesheet" href="/_/css/qenta.css">
+<link rel="stylesheet" href="https://use.typekit.net/ucf2gvc.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="/_/css/nav-menu.css">
+<link rel="stylesheet" href="/_/css/tables.css">
+<link rel="icon" href="/_/img/favicon_hobex.jpg" type="image/png">
+  </head>
+  <body class="article">
+<header class="header" role="banner">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://guides.qenta.com">hobex Online Guides</a>
+      <div class="navbar-item search hide-for-print">
+        <div id="search-field" class="field">
+          <input id="search-input" type="text" placeholder="Search the docs">
+        </div>
+      </div>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://guides.qenta.com/">Home</a>
+        </div>
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://sit.hobex.at/">Enterprise</a>
+        </div>
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://sit.hobex.at/haendler-login/">Merchant Login</a>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://guides.qenta.com/contact/">Contact</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="online-guides" data-version="main">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="../../">hobex Online Guides</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Hosted Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../hosted/page/">Checkout Page</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/page/quick-guide-for-developers/">Quick Guide For Developers</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/page/integration-quide/">Integration Guide</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/page/customization/">Customization</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../hosted/seamless/">Checkout Seamless</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/seamless/SeamlessImplementation/">Method of Integration</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/seamless/data-storage/">Invoke the Data Storage</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/seamless/seamless-payment-process/">Seamless Payment Process</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/seamless/customization/">Customization</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Web-Based Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/terminal/">Checkout Terminal</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/automated/">Checkout Automated</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/paybylink/">PayByLink</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/payment-center/">Payment Center</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/journal/">Checkout Journal</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">API Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../API/paybylinkAPI/">PayByLink API</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text"><a href="https://qtill.guides.qenta.com/" target="\"_blank\"">Checkout Enterprise</a></span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../securing-online-shop/">Securing the Online Shop</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Frontend Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../parameters/frontend/request-parameters/">Request</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../parameters/frontend/required-parameters/">Required</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../parameters/frontend/optional-parameters/">Optional</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../parameters/frontend/response-parameters/">Response</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../parameters/datastorage/">Data Storage</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Backend Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../parameters/backend/request-parameters/">Request</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../parameters/backend/required-parameters/">Required</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../parameters/backend/optional-parameters/">Optional</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../parameters/backend/response-parameters/">Response</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../parameters/detailed-description/">Detailed Description</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../parameters/error-codes/">Error Codes</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Demo/Test</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../demo-mode/">Demo</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../test-mode/">Test</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../backend-operations/">Backend Operations</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../categories/#transactionBasedOperations">Transaction-based</a>
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="3">
+    <a class="nav-link" href="./">Available Operations</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../by-payment-method/">Operations by Payment Method</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../categories/#nonTransactionBasedOperations">Non-transaction-based</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../plugins/">Shop Plugins</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../payment-methods/">Payment Methods</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/circlek/">Circle K</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../payment-methods/credit-card/">Credit Card</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../payment-methods/3DS/">3D Secure/Recurring</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../payment-methods/mail-order/">Mail Order and Telephone Order</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/cvs/">CVS</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/dollar-general/">Dollar General</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/eps/">EPS</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/googlePayApi/">GooglePay</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/ideal/">iDeal</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/klarna/">Klarna</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/obucks/">oBucks</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/payolution/">Payolution</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../payment-methods/paypal-new/">PayPal</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../payment-methods/automatic-3rdparty-permission/">3rd Party Permissions</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/paysafecard/">Paysafecard</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/pagoefectivo/">PagoEfectivo</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/p24/">P24</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/riverty/">Riverty</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/safetypay/">Safetypay</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/sepa/">SEPA</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/Visa%20Click%20to%20Pay/">Visa Click to Pay</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../logos/">Logos</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../glossary/">Glossary</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../certificates/">Certificates</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../contact/">Contact</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../migration/">Migration</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">hobex Online Guides</span>
+    <span class="version">main</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="../../">hobex Online Guides</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../../">main</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../../" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../../">hobex Online Guides</a></li>
+    <li><a href="../backend-operations/">Backend Operations</a></li>
+    <li><a href="../categories/#transactionBasedOperations">Transaction-based</a></li>
+    <li><a href="./">Available Operations</a></li>
+  </ul>
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Available Transaction-Based Operations</h1>
+<div class="sect1">
+<h2 id="availableTransactionBasedOperations"><a class="anchor" href="#availableTransactionBasedOperations"></a>Available Transaction-Based Operations</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="approveReversal"><a class="anchor" href="#approveReversal"></a>approveReversal</h3>
+<div class="paragraph">
+<p><code>approveReversal</code> is the operation that cancels an approval and can be done only when the approval has not yet been debited.</p>
+</div>
+<div class="sect3">
+<h4 id="approveReversalFingerprint"><a class="anchor" href="#approveReversalFingerprint"></a>Required order of the parameter values when computing the fingerprint</h4>
+<div class="paragraph">
+<p><code>customerId</code>,<code>shopId</code>,<code>toolkitPassword</code>,<code>secret</code>,<code>command</code>,<code>language</code>,<code>orderNumber</code></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="approveReversalParameters"><a class="anchor" href="#approveReversalParameters"></a>Parameters</h4>
+<div class="paragraph">
+<p><a href="../../parameters/backend/required-parameters/#approveReversalRequired" class="xref page">Additional required request parameters</a> for <code>approveReversal</code>.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+No additional response parameters are returned.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="deposit"><a class="anchor" href="#deposit"></a>deposit</h3>
+<div class="paragraph">
+<p><code>deposit</code> is executed by the merchant if an order of a consumer has been accepted. This operation causes an approval to be converted into a deposit and a daily closing is automatically opened when there is no one already open for this payment method and currency.</p>
+</div>
+<div class="paragraph">
+<p><code>deposit</code> can be reversed with the <code><a href="#depositReversal">depositReversal</a></code> when the corresponding daily closing has not yet been done and the financial services provider and the payment method support it.</p>
+</div>
+<div class="sect3">
+<h4 id="depositFingerprint"><a class="anchor" href="#depositFingerprint"></a>Required order of the parameter values when computing the fingerprint</h4>
+<div class="paragraph">
+<p><code>customerId</code>,<code>shopId</code>,<code>toolkitPassword</code>,<code>secret</code>,<code>command</code>,<code>language</code>,<code>orderNumber</code>,<code>amount</code>,<code>currency</code></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="depositParameters"><a class="anchor" href="#depositParameters"></a>Parameters</h4>
+<div id="bigScreenLink" class="paragraph">
+<p>Additional <a href="../../parameters/backend/required-parameters/#depositRequired" class="xref page">required</a> and <a href="../../parameters/backend/optional-parameters/#depositOptional" class="xref page">optional</a> request parameters and <a href="../../parameters/backend/response-parameters/#depositResponse" class="xref page">response</a> request parameters for <code>deposit</code>.</p>
+</div>
+<div id="mobileLink" class="paragraph">
+<p>Additional <a href="../../parameters/backend/required-parameters/#depositRequired" class="xref page">required</a> and <a href="../../parameters/backend/optional-parameters/#depositOptionalMobile" class="xref page">optional</a> request parameters and <a href="../../parameters/backend/response-parameters/#depositResponse" class="xref page">response</a> request parameters for <code>deposit</code>.</p>
+</div>
+<div class="paragraph">
+<p><a href="../../parameters/frontend/optional-parameters/#shoppingBasketData" class="xref page">Shopping basket parameters</a> <strong>must</strong> be sent for a split capture for <a href="../../payment-methods/riverty/" class="xref page">Riverty</a> and <a href="../../payment-methods/payolution/" class="xref page">Payolution</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="depositReversal"><a class="anchor" href="#depositReversal"></a>depositReversal</h3>
+<div class="paragraph">
+<p><code>depositReversal</code> either cancels a deposited payment or converts a deposited payment into an approved payment. This operation can only be done before the day-end closing has been executed.</p>
+</div>
+<div class="sect3">
+<h4 id="depositReversalFingerprint"><a class="anchor" href="#depositReversalFingerprint"></a>Required order of the parameter values when computing the fingerprint</h4>
+<div class="paragraph">
+<p><code>customerId</code>,<code>shopId</code>,<code>toolkitPassword</code>,<code>secret</code>,<code>command</code>,<code>language</code>,<code>orderNumber</code>,<code>paymentNumber</code></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="depositReversalParameters"><a class="anchor" href="#depositReversalParameters"></a>Parameters</h4>
+<div class="paragraph">
+<p>Additional <a href="../../parameters/backend/required-parameters/#depositReversalRequired" class="xref page">required request parameters</a> for <code>depositReversal</code>.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+No additional response parameters are returned.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="getOrderDetails"><a class="anchor" href="#getOrderDetails"></a>getOrderDetails</h3>
+<div class="paragraph">
+<p><code>getOrderDetails</code> returns all details for a given order including all possible operations, corresponding payments and credit notes.</p>
+</div>
+<div class="sect3">
+<h4 id="getOrderDetailsFingerprint"><a class="anchor" href="#getOrderDetailsFingerprint"></a>Required order of the parameter values when computing the fingerprint</h4>
+<div class="paragraph">
+<p><code>customerId</code>,<code>shopId</code>,<code>toolkitPassword</code>,<code>secret</code>,<code>command</code>,<code>language</code>,<code>orderNumber</code></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="getOrderDetailsParameters"><a class="anchor" href="#getOrderDetailsParameters"></a>Parameters</h4>
+<div class="paragraph">
+<p>Additional <a href="../../parameters/backend/required-parameters/#getOrderDetailsRequired" class="xref page">required request parameters</a> for <code>getOrderDetails</code>.</p>
+</div>
+<div class="paragraph">
+<p>Within the additional response parameters, some parameters will occur more than once, so we use the letters n and m as placeholders for digits. Currently, n is always 1 because <code>getOrderDetails</code> returns only one order and m indicates that there may be more than one payment or credit object returned.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="featureSpecificParameter"><a class="anchor" href="#featureSpecificParameter"></a>Feature-Specific Parameter</h4>
+<div class="paragraph">
+<p>The response parameter enhances the result data of the payment process regarding specific features and functions.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch big-screen">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Parameter</th>
+<th class="tableblock halign-left valign-top">Data type</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code><a href="../../parameters/detailed-description/#instrumentCountry" class="xref page">payment.{n}.{m}.instrumentCountry</a></code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphabetic, fixed 2.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Country of the consumer which has been detected and returned by the financial service provider.</p></td>
+</tr>
+</tbody>
+</table>
+<table id="featureSpecificParameterMobile" class="tableblock frame-all grid-all stretch mobile-screen">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top" colspan="2"><code><a href="../../parameters/detailed-description/#instrumentCountry" class="xref page">payment.{n}.{m}.instrumentCountry</a></code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphabetic, fixed 2.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Country of the consumer which has been detected and returned by the financial service provider.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="sect4">
+<h5 id="paymentType"><a class="anchor" href="#paymentType"></a><a href="../../parameters/detailed-description/#paymentType" class="xref page">paymentType</a></h5>
+<div class="paragraph">
+<p>The parameter <code>paymentType</code> returns the technical property used for the transaction.</p>
+</div>
+<table class="tableblock frame-all grid-all" style="width: 70%;">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Value</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>CCARD</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Credit Card, Maestro SecureCode</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>CCARD-MOTO</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Credit Card MOTO</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>CIRCLEK</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Circle K</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>CVSPHARMACY</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CVC</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>DOLLARGENERAL</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dollar General</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>EPS</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">EPS-Überweisung</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>ELV</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Hobex SEPA</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>IDL</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ideal</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>INVOICE</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Invoice by Payolution</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>MAESTRO</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mastercard Maestro</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>OPENBUCKSCARD</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">oBucks</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>PAYPAL</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PayPal</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>PAGOEFECTIVO</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PagoEfectivo</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>PSC</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Paysafecard</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>PRZELEWY24</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Przelewy24</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>AFTERPAY</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Riverty</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>SOFORTUEBERWEISUNG</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Klarna Sofort</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>SEPA-DD</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Direct Debit</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>SAFETYPAY</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Safetypay</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="returnMessage"><a class="anchor" href="#returnMessage"></a>Return Message</h4>
+<div class="sect4">
+<h5 id="returnMessagePENDING"><a class="anchor" href="#returnMessagePENDING"></a>Return Message PENDING</h5>
+<div class="paragraph">
+<p>If the <code>getOrderDetails</code> is carried out for order numbers that are still in progress no statement on the actual or final order state may be retrieved and the message <code>PENDING</code> is returned:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 37.5%;">
+<col style="width: 12.5%;">
+<col style="width: 37.5%;">
+<col style="width: 12.5%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Message</th>
+<th class="tableblock halign-left valign-top"><a href="../../parameters/error-codes/" class="xref page">errorCode</a></th>
+<th class="tableblock halign-left valign-top">paySysMessage</th>
+<th class="tableblock halign-left valign-top"><a href="../../parameters/backend/response-parameters/#parameterStatus" class="xref page">Status</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The final state of the transaction could not yet be determined.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>30014</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">(15/30761)-No payer assigned to EC token.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>3</code></p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Currently, error code <code>30014</code> is supported by those payment methods for which the <a href="../../parameters/detailed-description/#pendingUrl" class="xref page">pendingUrl</a> is required or recommended.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="returnMessageREJECTED"><a class="anchor" href="#returnMessageREJECTED"></a>Return Message REJECTED</h5>
+<div class="paragraph">
+<p>If the operation getOrderDetails is carried out, payments in status <code>REJECTED</code> return the following result:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 37.5%;">
+<col style="width: 12.5%;">
+<col style="width: 37.5%;">
+<col style="width: 12.5%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Message</th>
+<th class="tableblock halign-left valign-top"><a href="../../parameters/error-codes/" class="xref page">errorCode</a></th>
+<th class="tableblock halign-left valign-top">paySysMessage</th>
+<th class="tableblock halign-left valign-top"><a href="../../parameters/backend/response-parameters/#parameterStatus" class="xref page">Status</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The financial institution has declined the transaction. Check the data that have entered.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>20003</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">WCP: Auth: Verification failed.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>2</code></p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<code>paySysMessage</code> depends on the relevant financial service provider&#8217;s response.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="recurPayment"><a class="anchor" href="#recurPayment"></a>recurPayment</h3>
+<div class="paragraph">
+<p><code>recurPayment</code> uses the payment information available from a previous order to create a new order and a new payment attempt.</p>
+</div>
+<div class="sect3">
+<h4 id="recurPaymentFingerprint"><a class="anchor" href="#recurPaymentFingerprint"></a>Required order of the parameter values when computing the fingerprint</h4>
+<div class="paragraph">
+<p><code>customerId</code>,<code>shopId</code>,<code>toolkitPassword</code>,<code>secret</code>,<code>command</code>,<code>language</code>,<code>orderNumber</code>,<code>sourceOrderNumber</code>,<code>autoDeposit</code>,<code>orderDescription</code>,<code>amount</code>,<code>currency</code>,<code>orderReference</code>,<code>customerStatement</code>,<code>mandateId</code>,<code>mandateSignatureDate</code>,<code>creditorId</code>,<code>dueDate</code>,<code>transactionIdentifier</code>,<code>useIbanBic</code>,<code>merchantTokenizationFlag</code>,<code>periodicType</code></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="recurPaymentParameters"><a class="anchor" href="#recurPaymentParameters"></a>Parameters</h4>
+<div class="paragraph">
+<p>According to credit card company requirements for risk minimization, there are two parameters for <a href="../../parameters/backend/optional-parameters/#recurringPaymentsOptional" class="xref page">recurring payments</a>.</p>
+</div>
+<div id="bigscreenLinkRecurPayment" class="paragraph">
+<p>Additional <a href="../../parameters/backend/required-parameters/#recurPaymentRequired" class="xref page">required</a> and <a href="../../parameters/backend/optional-parameters/#recurPaymentOptional" class="xref page">optional</a> request parameters for <code>recurPayment</code>.</p>
+</div>
+<div id="mobileLinkRecurPayment" class="paragraph">
+<p>Additional <a href="../../parameters/backend/required-parameters/#recurPaymentRequired" class="xref page">required</a> and <a href="../../parameters/backend/optional-parameters/#recurPaymentOptionalMobile" class="xref page">optional</a> request parameters for <code>recurPayment</code>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="sourceOrdersBasedOnSEPA"><a class="anchor" href="#sourceOrdersBasedOnSEPA"></a>Source Orders Based on SEPA Direct Debit</h4>
+<div class="paragraph">
+<p>For recurring transactions based on SEPA Direct Debit, a given authorization by the consumer is used for regular direct debits initiated by the creditor, e.g payment for monthly rent. The initial <code>mandateId</code> signed by the consumer is used as a basis for all recurring transactions.</p>
+</div>
+<table id="allAcquirers" class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 1. For All Acquirers</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Parameter</th>
+<th class="tableblock halign-left valign-top">Data type</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code><a href="../../parameters/detailed-description/#mandateId" class="xref page">mandateId</a></code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 35 characters.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Identifier of mandate.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code><a href="../../parameters/detailed-description/#mandateSignatureDate" class="xref page">mandateSignatureDate</a></code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date as <code>DD.MM.YYYY</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date when mandate was signed by the consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code><a href="../../parameters/detailed-description/#transactionIdentifier" class="xref page">transactionIdentifier</a></code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Enumeration</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>SINGLE</code>, <code>RECUR</code> or <code>INITIAL</code>.</p></td>
+</tr>
+</tbody>
+</table>
+<table id="b4payment" class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 2. b4payment</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Parameter</th>
+<th class="tableblock halign-left valign-top">Data type</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>consumerMerchantCrmId</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Identifier of Merchant CRM.</p></td>
+</tr>
+</tbody>
+</table>
+<table id="PayPal" class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 3. PayPal</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Parameter</th>
+<th class="tableblock halign-left valign-top">Data type</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code><a href="../../parameters/detailed-description/#transactionIdentifier" class="xref page">transactionIdentifier</a></code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Enumeration</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>SINGLE</code>, <code>RECUR</code> or <code>INITIAL</code>.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="SEPAForSofort"><a class="anchor" href="#SEPAForSofort"></a>SEPA Direct Debit for Sofort Source Orders</h4>
+<div class="paragraph">
+<p>Recurring transactions for b4payment don&#8217;t require the parameter <code>useIbanBic</code>.</p>
+</div>
+<div class="paragraph">
+<p>To process a SEPA recurring payment with b4payment integration the mandatory parameter <code>consumerMerchantCrmId</code> needs to be added.</p>
+</div>
+<div class="paragraph">
+<p>Recurring transactions for Hobex don&#8217;t require the parameters <code>useIbanBic</code> and the parameter <a href="../../parameters/detailed-description/#transactionIdentifier" class="xref page">transactionIdentifier</a>.</p>
+</div>
+<div id="bigScreenLinkSEPAResponse" class="paragraph">
+<p><a href="../../parameters/backend/response-parameters/#backendOperationsResponse" class="xref page">Response backend operations parameters</a> and <a href="../../parameters/backend/response-parameters/#SEPAResponse" class="xref page">source orders based on SEPA Direct Debit</a> for <code>recurPayment</code>.</p>
+</div>
+<div id="mobileLinkSEPAResponse" class="paragraph">
+<p><a href="../../parameters/backend/response-parameters/#backendOperationsResponse" class="xref page">Response backend operations parameters</a> and <a href="../../parameters/backend/response-parameters/#SEPAResponseMobile" class="xref page">source orders based on SEPA Direct Debit</a> for <code>recurPayment</code>.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Extending an authorization is not possible, so recurring payment returns a new <code>order Id</code> and the original authorization should be canceled as soon as possible. Anyhow if the transaction(s) exceeds the limit, it will be declined by the issuing bank.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>A recurring payment can be made for an existing order which is not older than 400 days and use expired or reversed orders as source orders within a time frame of 400 days.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="refund"><a class="anchor" href="#refund"></a>refund</h3>
+<div class="paragraph">
+<p><code>refund</code> creates a credit note for the specified order and it can only be done after the order has been debited and the corresponding day-end closing has been done.</p>
+</div>
+<div class="sect3">
+<h4 id="refundFingerprint"><a class="anchor" href="#refundFingerprint"></a>Required order of the parameter values when computing the fingerprint</h4>
+<div class="paragraph">
+<p><code>customerId</code>,<code>shopId</code>,<code>toolkitPassword</code>,<code>secret</code>,<code>command</code>,<code>language</code>,<code>orderNumber</code>,<code>amount</code>,<code>currency</code></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="refundParameters"><a class="anchor" href="#refundParameters"></a>Parameters</h4>
+<div class="paragraph">
+<p>If supported by the financial service provider it’s possible to refund only a part of the deposited amount. Send <a href="#refundAdditionalParameters">additional optional request parameters</a> for the shopping basket e.g. additional information about the item for a refund or the items which remain with the consumer should be sent.</p>
+</div>
+<div class="paragraph">
+<p>Additional <a href="#refundAdditionalParameters">required request parameters</a> and <a href="../../parameters/backend/response-parameters/#refundResponse" class="xref page">response request parameters</a> for <code>refund</code>.</p>
+</div>
+<div id="refundAdditionalParameters" class="paragraph">
+<p>For refunds, there are additional optional request parameters available. An additional reference for each operation can therefore be set with the parameter <code>merchantReference</code>. For some payment methods information about the basket items on each refund is required, especially if only a part of the order is refunded. For this purpose the following <a href="../../parameters/frontend/optional-parameters/#shoppingBasketData" class="xref page">shopping basket</a> and <code>merchantReference</code> are available.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Although the following parameters are in general optional, either all parameters need to be set or none, except for <code>basketItem(n)Description</code> and <code>basketItem(n)ImageUrl</code> which remain optional.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>A refund can only be done for an order for which the deposit has already been done and it&#8217;s not possible to do one refund for several orders, so a refund should be done for each order.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="refundReversal"><a class="anchor" href="#refundReversal"></a>refundReversal</h3>
+<div class="paragraph">
+<p><code>refundReversal</code> cancels a credit note and can only be done before the corresponding day-end closing has been executed.</p>
+</div>
+<div class="sect3">
+<h4 id="refundReversalFingerprint"><a class="anchor" href="#refundReversalFingerprint"></a>Required order of the parameter values when computing the fingerprint</h4>
+<div class="paragraph">
+<p><code>customerId</code>,<code>shopId</code>,<code>toolkitPassword</code>,<code>secret</code>,<code>command</code>,<code>language</code>,<code>orderNumber</code>,<code>creditNumber</code></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="refundReversalParameters"><a class="anchor" href="#refundReversalParameters"></a>Parameters</h4>
+<div class="paragraph">
+<p>Additional <a href="../../parameters/backend/required-parameters/#refundReversalRequired" class="xref page">required request parameters</a> for <code>refundReversal</code>.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="transferFund"><a class="anchor" href="#transferFund"></a>transferFund</h3>
+<div class="paragraph">
+<p><code>transferFund</code> creates a credit note without dependency on a specific order. Depending on the relevant payment method, hobex Service IT currently supports:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="#EXISTINGORDER">EXISTINGORDER</a></p>
+</li>
+<li>
+<p><a href="#SEPA-CT">SEPA-CT</a></p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="EXISTINGORDER"><a class="anchor" href="#EXISTINGORDER"></a>EXISTINGORDER</h4>
+
+</div>
+<div class="sect3">
+<h4 id="EXISTINGORDERFingerprint"><a class="anchor" href="#EXISTINGORDERFingerprint"></a>Required order of the parameter values when computing the fingerprint</h4>
+<div class="paragraph">
+<p><code>customerId</code>,<code>shopId</code>,<code>toolkitPassword</code>,<code>secret</code>,<code>command</code>,<code>language</code>,<code>orderNumber</code>,<code>creditNumber</code>,<code>orderDescription</code>,<code>amount</code>,<code>currency</code>,<code>orderReference</code>,<code>customerStatement</code>,<code>fundTransferType</code>,<code>sourceOrderNumber</code></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="EXISTINGORDERParameters"><a class="anchor" href="#EXISTINGORDERParameters"></a>Parameters</h4>
+<div class="paragraph">
+<p>The parameters <code>sourceOrderNumber</code> and <code>fundTransferType</code> EXISTINGORDER are relevant to be used for this transfer type. The data of an existing order that are stored on  hobex Checkout Server are used.</p>
+</div>
+<div class="paragraph">
+<p>The fund transfer type is used for the <a href="../../payment-methods/sepa/" class="xref page">SEPA Direct Debit</a> and <a href="../../payment-methods/sofort/" class="xref page">Sofort</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="SEPA-CT"><a class="anchor" href="#SEPA-CT"></a>SEPA-CT</h4>
+
+</div>
+<div class="sect3">
+<h4 id="SEPA-CTFingerprint"><a class="anchor" href="#SEPA-CTFingerprint"></a>Required order of the parameter values when computing the fingerprint</h4>
+<div class="paragraph">
+<p><code>customerId</code>,<code>shopId</code>,<code>toolkitPassword</code>,<code>secret</code>,<code>command</code>,<code>language</code>,<code>orderNumber</code>,<code>creditNumber</code>,<code>orderDescription</code>,<code>amount</code>,<code>currency</code>,<code>orderReference</code>,<code>customerStatement</code>,<code>fundTransferType</code>,<code>bankAccountOwner</code>,<code>bankBic</code>,<code>bankAccountIban</code></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="SEPA-CTParameters"><a class="anchor" href="#SEPA-CTParameters"></a>Parameters</h4>
+<div class="paragraph">
+<p>SEPA-CT is used to pay out money to any bank account using SEPA standard. Thus, the parameters <code>bankBic</code>, <code>bankAccountIban</code>, <code>bankAccountOwner</code> and <code>fundTransferType</code> are relevant to be used.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+SEPA-CT is used for all payment methods provided that the BIC, IBAN and account owner are known.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Additional <a href="../../parameters/backend/required-parameters/#transferFundRequired" class="xref page">required request parameters</a> and <a href="../../parameters/backend/response-parameters/#transferFundResponse" class="xref page">response parameters</a>  for <code>refundReversal</code>.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer qenta">
+  <div class="uk-section-secondary uk-section">
+    <div class="uk-container">
+      <div class="tm-grid-expand uk-grid-large uk-grid-margin-large uk-grid" uk-grid="">
+        <div class="uk-width-1-3@m uk-first-column">
+          <div class="uk-position-relative uk-margin" style="left: 0px; bottom: 20px;">
+            <a class="el-link" href="#2" uk-scroll=""><img class="el-image" alt="" uk-img=""
+                src="https://sit.hobex.at/wp-content/themes/yootheme/cache/hobex-logo-cmyk-e8548fa7.jpeg" width="160"></a>
+          </div>
+          <div class="uk-panel uk-text-meta uk-position-relative" style="bottom: 20px;">
+            <p>©2025 - HOBEX SERVICE IT GMBH</p>
+          </div>
+        </div>
+        <div class="uk-width-2-3@m">
+          <div class="uk-text-right">
+            <ul class="uk-margin-remove-bottom uk-subnav uk-flex-right" uk-margin="">
+              <li class="el-item uk-first-column">
+                <a class="el-link" href="https://sit.hobex.at/">COMPANY</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/merchant-login/">MERCHANT LOGIN</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/payment-solutions/">SOLUTIONS</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/contact/">CONTACT</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://guides.qenta.com" target="_blank">ONLINE GUIDES</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/download-center/">DOWNLOAD CENTER</a>
+              </li>
+            </ul>
+          </div>
+          <div class="uk-text-right">
+            <ul class="uk-margin-remove-bottom uk-subnav uk-flex-right" uk-margin="">
+              <li class="el-item uk-first-column">
+                <a class="el-link" href="https://sit.hobex.at/en/imprint/">IMPRINT</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://guides.qenta.com/protection-personal-data/data-protection-en/">DATA PROTECTION</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/terms-and-conditions/">T&C</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script id="site-script" src="/_/js/site.js" data-ui-root-path="../../../../_"></script>
+<script async src="/_/js/vendor/highlight.js"></script>
+<script src="/_/js/vendor/lunr.js"></script>
+<script src="/_/js/search-ui.js" id="search-ui-script" data-site-root-path="../../../.." data-snippet-length="100" data-stylesheet="../../../../_/css/search.css"></script>
+<script async src="../../../../search-index.js"></script>
+  </body>
+</html>

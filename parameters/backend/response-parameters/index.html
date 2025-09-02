@@ -1,0 +1,2457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Response Parameters :: hobex Online Guides</title>
+    <link rel="canonical" href="https://guides.qenta.com/online-guides/main/parameters/backend/response-parameters/">
+    <meta name="generator" content="Antora 3.1.12">
+    <link rel="stylesheet" href="/_/css/site.css">
+<link rel="stylesheet" href="/_/css/search.css">
+<link rel="stylesheet" href="/_/css/qenta.css">
+<link rel="stylesheet" href="https://use.typekit.net/ucf2gvc.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="/_/css/nav-menu.css">
+<link rel="stylesheet" href="/_/css/tables.css">
+<link rel="icon" href="/_/img/favicon_hobex.jpg" type="image/png">
+  </head>
+  <body class="article">
+<header class="header" role="banner">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://guides.qenta.com">hobex Online Guides</a>
+      <div class="navbar-item search hide-for-print">
+        <div id="search-field" class="field">
+          <input id="search-input" type="text" placeholder="Search the docs">
+        </div>
+      </div>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://guides.qenta.com/">Home</a>
+        </div>
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://sit.hobex.at/">Enterprise</a>
+        </div>
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://sit.hobex.at/haendler-login/">Merchant Login</a>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://guides.qenta.com/contact/">Contact</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="online-guides" data-version="main">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="../../../">hobex Online Guides</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Hosted Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../hosted/page/">Checkout Page</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../hosted/page/quick-guide-for-developers/">Quick Guide For Developers</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../hosted/page/integration-quide/">Integration Guide</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../hosted/page/customization/">Customization</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../hosted/seamless/">Checkout Seamless</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../hosted/seamless/SeamlessImplementation/">Method of Integration</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../hosted/seamless/data-storage/">Invoke the Data Storage</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../hosted/seamless/seamless-payment-process/">Seamless Payment Process</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../hosted/seamless/customization/">Customization</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Web-Based Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../web-based/terminal/">Checkout Terminal</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../web-based/automated/">Checkout Automated</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../web-based/paybylink/">PayByLink</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../web-based/payment-center/">Payment Center</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../web-based/journal/">Checkout Journal</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">API Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../API/paybylinkAPI/">PayByLink API</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text"><a href="https://qtill.guides.qenta.com/" target="\"_blank\"">Checkout Enterprise</a></span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../securing-online-shop/">Securing the Online Shop</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Frontend Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../frontend/request-parameters/">Request</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../frontend/required-parameters/">Required</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../frontend/optional-parameters/">Optional</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../frontend/response-parameters/">Response</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../datastorage/">Data Storage</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Backend Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../request-parameters/">Request</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../required-parameters/">Required</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../optional-parameters/">Optional</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item is-current-page" data-depth="3">
+    <a class="nav-link" href="./">Response</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../detailed-description/">Detailed Description</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../error-codes/">Error Codes</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Demo/Test</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../demo-mode/">Demo</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../test-mode/">Test</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../backend/backend-operations/">Backend Operations</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../backend/categories/#transactionBasedOperations">Transaction-based</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../backend/transaction-based/">Available Operations</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../backend/by-payment-method/">Operations by Payment Method</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../backend/categories/#nonTransactionBasedOperations">Non-transaction-based</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../plugins/">Shop Plugins</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../payment-methods/">Payment Methods</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/circlek/">Circle K</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../payment-methods/credit-card/">Credit Card</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../payment-methods/3DS/">3D Secure/Recurring</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../payment-methods/mail-order/">Mail Order and Telephone Order</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/cvs/">CVS</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/dollar-general/">Dollar General</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/eps/">EPS</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/googlePayApi/">GooglePay</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/ideal/">iDeal</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/klarna/">Klarna</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/obucks/">oBucks</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/payolution/">Payolution</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../payment-methods/paypal-new/">PayPal</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../payment-methods/automatic-3rdparty-permission/">3rd Party Permissions</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/paysafecard/">Paysafecard</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/pagoefectivo/">PagoEfectivo</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/p24/">P24</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/riverty/">Riverty</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/safetypay/">Safetypay</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/sepa/">SEPA</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/Visa%20Click%20to%20Pay/">Visa Click to Pay</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../logos/">Logos</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../glossary/">Glossary</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../certificates/">Certificates</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../contact/">Contact</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../migration/">Migration</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">hobex Online Guides</span>
+    <span class="version">main</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="../../../">hobex Online Guides</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../../../">main</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../../../" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../../../">hobex Online Guides</a></li>
+    <li>Parameters</li>
+    <li>Backend Parameters</li>
+    <li><a href="./">Response</a></li>
+  </ul>
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Response Parameters</h1>
+<div class="sect1">
+<h2 id="responseParameters"><a class="anchor" href="#responseParameters"></a>Backend Response Parameters</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The number of response parameters is not fixed but depends on the payment method.</p>
+</div>
+<div class="paragraph">
+<p>Always use the same upper and lower case writing of the parameter names and values as described. Check all responses of the hobex Service IT Checkout Server by using the fingerprint method.</p>
+</div>
+<div class="paragraph">
+<p>For each <a href="../../../backend/categories/" class="xref page">backend operation</a> these response parameters will always be returned.</p>
+</div>
+<table id="status" class="tableblock frame-all grid-all stretch big-screen">
+<caption class="title">Table 1. <a id="ParameterStatus"></a>Parameter Status</caption>
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-middle">Parameter</th>
+<th class="tableblock halign-left valign-middle">Data type</th>
+<th class="tableblock halign-left valign-middle">Description</th>
+<th class="tableblock halign-left valign-middle">Value of parameter <code>status</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>status</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric, fixed length of 1.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Number representing the status of the operation.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>0</code>- Operation is successfully done,<br>
+<code>1</code>- Error during request parameter verification,<br>
+<code>2</code>- Execution of operation denied,<br>
+<code>3</code>- Error within an external financial institution,<br>
+<code>4</code>- Internal error.</p></td>
+</tr>
+</tbody>
+</table>
+<table id="statusMobile" class="tableblock frame-all grid-all stretch mobile-screen">
+<caption class="title">Table 2. <a id="ParameterStatus"></a>Parameter Status</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top" colspan="2"><code>status</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric, fixed length of 1.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Number representing the status of the operation.<br>
+<code>1</code>- Error during request parameter verification,<br>
+<code>2</code>- Execution of operation denied,<br>
+<code>3</code>- Error within an external financial institution,<br>
+<code>4</code>- Internal error.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Additional response parameters are returned which are specific to the particular backend operation, both <a href="../../../backend/categories/#transactionBasedOperations" class="xref page">transaction-based</a> and <a href="../../../backend/categories/#nonTransactionBasedOperations" class="xref page">non-transaction-based</a> operations.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+If the backend operation was not successful parameters describing the error are returned.
+</td>
+</tr>
+</table>
+</div>
+<div class="sect2">
+<h3 id="errorParameters"><a class="anchor" href="#errorParameters"></a>Error Parameters</h3>
+<table id="errorParametersPage" class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 3. Error Parameters for Checkout Page</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-middle">Parameter</th>
+<th class="tableblock halign-left valign-middle">Data type</th>
+<th class="tableblock halign-left valign-middle">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code><a href="../../error-codes/" class="xref page">errorCodes</a></code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric, fixed 5.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric error code which should be logged for later use.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>message</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric with special characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Error message in English.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>paySysMessage</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric with special characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Error message specific to payment method and financial institution which is only relevant for the merchant.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>providerMessage</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric with special characters</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Specific error provided by the acquirer/issuer. If this parameter is not sent for <code>customerId</code> get in contact with the <a href="../../../contact/#supportTeam" class="xref page">integrations specialists</a>.</p></td>
+</tr>
+</tbody>
+</table>
+<table id="errorParametersSeamless" class="tableblock frame-all grid-all stretch big-screen">
+<caption class="title">Table 4. Error Parameters for Checkout Seamless</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-middle">Parameter</th>
+<th class="tableblock halign-left valign-middle">Data type</th>
+<th class="tableblock halign-left valign-middle">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>errors</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Number of errors that occurred.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>error.{n}.<a href="../../error-codes/" class="xref page">errorCodes</a></code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric, fixed 5.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric error code which should be logged for later use.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>error.{n}.message</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric with special characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Error message in English.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>error.{n}.consumerMessage</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric with special characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Error message in localized language for consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>error.{n}.paySysMessage</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric with special characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Payment method system specific error message only relevant for merchant.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>providerMessage</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric with special characters</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Specific error provided by the acquirer/issuer. If this parameter is not sent for <code>customerId</code> get in contact with the <a href="../../../contact/#supportTeam" class="xref page">integrations specialists</a>.</p></td>
+</tr>
+</tbody>
+</table>
+<table id="errorParametersSeamlessMobile" class="tableblock frame-all grid-all stretch mobile-screen">
+<caption class="title">Table 5. Error Parameters for Checkout Seamless</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top" colspan="2"><code>errors</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Number of errors that occurred.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>error.{n}.<a href="../../error-codes/" class="xref page">errorCodes</a></code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric, fixed 5.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric error code which should be logged for later use.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>error.{n}.message</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric with special characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Error message in localized language for consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>error.{n}.paySysMessage</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric with special characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Payment method system specific error message only relevant for merchant.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>providerMessage</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric with special characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Specific error provided by the acquirer/issuer. If this parameter is not sent for <code>customerId</code> get in contact with the <a href="../../../contact/#supportTeam" class="xref page">integrations specialists</a>.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="availableTransactionBasedOperations"><a class="anchor" href="#availableTransactionBasedOperations"></a><a href="../../../backend/transaction-based/" class="xref page">Available Transaction Based Operations</a></h3>
+<table id="backendOperationsResponse" class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 6. Backend Operations</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Parameter</th>
+<th class="tableblock halign-left valign-top">Data type</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code><a href="../../detailed-description/#orderNumber" class="xref page">orderNumber</a></code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric, up to 9 digits.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Order number of payment.</p></td>
+</tr>
+</tbody>
+</table>
+<table id="SEPAResponse" class="tableblock frame-all grid-all stretch big-screen">
+<caption class="title">Table 7. Source Orders Based on SEPA Direct Debit</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-middle">Parameter</th>
+<th class="tableblock halign-left valign-middle">Date type</th>
+<th class="tableblock halign-left valign-middle">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code><a href="../../detailed-description/#dueDate" class="xref page">dueDate</a></code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Date as <code>DD.MM.YYYY</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Date when payment is debited from consumer’s bank account.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code><a href="../../detailed-description/#mandateId" class="xref page">mandateId</a></code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric, up to 35 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Identifier of displayed mandate.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code><a href="../../detailed-description/#mandateSignatureDate" class="xref page">mandateSignatureDate</a></code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Date as <code>DD.MM.YYYY</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Date when the mandate was signed by the consumer.</p></td>
+</tr>
+</tbody>
+</table>
+<table id="SEPAResponseMobile" class="tableblock frame-all grid-all stretch mobile-screen">
+<caption class="title">Table 8. Source Orders Based on SEPA Direct Debit</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top" colspan="2"><code><a href="../../detailed-description/#dueDate" class="xref page">dueDate</a></code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date as <code>DD.MM.YYYY</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date when payment is debited from consumer’s bank account.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code><a href="../../detailed-description/#mandateId" class="xref page">mandateId</a></code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 35 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Identifier of displayed mandate.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code><a href="../../detailed-description/#mandateSignatureDate" class="xref page">mandateSignatureDate</a></code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date as <code>DD.MM.YYYY</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date when the mandate was signed by the consumer.</p></td>
+</tr>
+</tbody>
+</table>
+<table id="depositResponse" class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 9. <a href="../../../backend/transaction-based/#deposit" class="xref page">deposit</a></caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-middle">Parameter</th>
+<th class="tableblock halign-left valign-middle">Data type</th>
+<th class="tableblock halign-left valign-middle">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>paymentNumber</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric, up to 9 digits.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">A new payment number is returned if a new payment object has been created due to a split capture.</p></td>
+</tr>
+</tbody>
+</table>
+<table id="refundResponse" class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 10. <a href="../../../backend/transaction-based/#refund" class="xref page">refund</a></caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Parameter</th>
+<th class="tableblock halign-left valign-top">Data type</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>creditNumber</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric, fixed 9.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Number of a credit note.</p></td>
+</tr>
+</tbody>
+</table>
+<table id="transferFundResponse" class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 11. <a href="../../../backend/transaction-based/#transferFund" class="xref page">transferFund</a></caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Parameter</th>
+<th class="tableblock halign-left valign-top">Data type</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>creditNumber</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric, up to 9 digits.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Number of a credit note.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_getorderdetails_operations"><a class="anchor" href="#_getorderdetails_operations"></a><a id="AdditionalResponseParametersGetOrderDetails"></a><a href="../../../backend/transaction-based/#getOrderDetails" class="xref page">getOrderDetails</a> Operations</h3>
+<div class="paragraph">
+<p>Some parameters will occur more than once, so we use the letters n and m as placeholders for digits. Currently, n is always 1 because <code>getOrderDetails</code> returns only one order and m indicates that there may be more than one payment or credit object returned.</p>
+</div>
+<table id="additionalResponseParameters" class="tableblock frame-all grid-all stretch big-screen">
+<caption class="title">Table 12. Additional Response Parameters</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-middle">Parameter</th>
+<th class="tableblock halign-left valign-middle">Data type</th>
+<th class="tableblock halign-left valign-middle">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>orders</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Always 1 if a corresponding order has been found; otherwise 0.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>order.{n}.merchantNumber</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric, fixed 9 digits.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">ID of merchant.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>order.{n}.orderNumber</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric, up to 9 digits.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Order number.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>order.{n}.paymentType</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric, up to 32 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Payment type of order.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>order.{n}.amount</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Amount</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Amount of order.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>order.{n}.brand</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric, up to 255 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Brand of payment method.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>order.{n}.currency</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphabetic or numeric, fixed 3 characters</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Currency code of amount.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>order.{n}.orderDescription</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric, up to 255 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Unique description of the consumer’s order in a human-readable form.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>order.{n}.acquirer</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Acquirer</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>order.{n}.contractNumber</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric including special characters, up to 255 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Contract number of the financial service provider.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>order.{n}.operationsAllowed</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric including special characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Comma-separated string of available backend operations or an empty string if no backend operation is possible.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>order.{n}.orderReference</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric, up to 128 digits.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Order reference.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>order.{n}.customerStatement</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric, up to 254 characters that may be restricted for specific payment methods.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Text visible for the consumer on the bank statement.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>order.{n}.orderText</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric, up to 254 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Order text reduced to ASCII-character set.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>order.{n}.timeCreated</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Date</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Date and time when order has been created.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>order.{n}.timeModified</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Date</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Date and time when an order has been modified the last time.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>order.{n}.state</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric, up to 16 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Current state of order -<code>ORDERED</code>, <code>REFUNDABLE</code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>order.{n}.sourceOrderNumber</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric, up to 9 digits.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Source order number if there is a connection to another order.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>order.{n}.payments</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Count of corresponding payment objects.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>order.{n}.credits</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Count of corresponding credit objects.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.merchantNumber</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">ID of merchant.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.paymentNumber</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric, up to 9 digits.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Number of payment.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.orderNumber</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric, up to 9 digits.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Number of order.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.approvalCode</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Approval code of financial service provider may be an empty string.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.batchNumber</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric, up to 9 digits.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Only available if day-end closing was done the order.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.approveAmount</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Amount</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Approved amount of order.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.depositAmount</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Amount</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Debit amount of order.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.currency</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphabetic or numeric, fixed 3 characters</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Currency code.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.timeCreated</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Date</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Date and time when payment has been created.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.timeModified</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Date</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Date and time when payment has been modified the last time.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.state</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphabetic, up to 32 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Current state of payment-<code>payment_approved</code>, <code>payment_deposited</code>, <code>payment_closed</code>, <code>payment_approvalexpired</code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.<a href="../../detailed-description/#paymentType" class="xref page">paymentType</a></code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric, up to 64 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Technical property used for the transaction.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.operationsAllowed</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric including special characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Comma-separated string of available backend operations or an empty string if no backend operation is possible.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.gatewayReferenceNumber</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric including special characters, up to 255 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Technical reference number of corresponding financial service provider.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.providerReferenceNumber</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric including special characters, up to 255 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Technical reference number of the corresponding financial service provider or acquirer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.avsResultCode</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric including special characters, up to 5 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Result code of AVS check.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.avsResultMessage</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric including special characters and up to 256 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Result text of AVS check.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.avsProviderResultCode</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric including special characters, up to 5 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Provider result code of AVS check.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.avsProviderResultMessage</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric including special characters, up to 256 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Provider result text of AVS check.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>credit.{n}.{m}.merchantNumber</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">ID of merchant.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>credit.{n}.{m}.creditNumber</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric, up to 9 digits.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Credit number.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>credit.{n}.{m}.orderNumber</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric, up to 9 digits.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Order number.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>credit.{n}.{m}.batchNumber</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric, up to 9 digits.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Batch number for corresponding day-end closing.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>credit.{n}.{m}.amount</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Amount</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Amount of credit.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>credit.{n}.{m}.currency</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphabetic or numeric, fixed 3 characters</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Currency code of amount.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>credit.{n}.{m}.timeCreated</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Date</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Date and time when credit has been created.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>credit.{n}.{m}.timeModified</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Date</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Date and time when the credit has been modified the last time.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>credit.{n}.{m}.state</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphabetic including special characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Current state of credit-<code>credit_refunded</code>, <code>credit_closed</code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>credit.{n}.operationsAllowed</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric including special characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Comma-separated string of available backend operations or an empty string if no backend operation is possible.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>credit.{n}.{m}.gatewayReferenceNumber</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric including special characters, up to 255 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Technical reference number of corresponding financial service provider.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>credit.{n}.{m}.providerReferenceNumber</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric including special characters, up to 255 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Technical reference number of corresponding financial service provider or acquirer.</p></td>
+</tr>
+</tbody>
+</table>
+<table id="additionalResponseParametersMobile" class="tableblock frame-all grid-all stretch mobile-screen">
+<caption class="title">Table 13. Additional Response Parameters</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top" colspan="2"><code>orders</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Always 1 if a corresponding order has been found; otherwise 0.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.merchantNumber</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric, fixed 9 digits.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ID of merchant.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.orderNumber</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric, up to 9 digits.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Order number.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.paymentType</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 32 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Payment type of order.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.amount</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Amount</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Amount of order.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.brand</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 255 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Brand of payment method.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.currency</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphabetic or numeric, fixed 3 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Currency code of amount.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.orderDescription</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 255 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Unique description of the consumer’s order in a human-readable form.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.acquirer</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Acquirer</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.contractNumber</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric including special characters, up to 255 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contract number of the financial service provider.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.operationsAllowed</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric including special characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Comma-separated string of available backend operations or an empty string if no backend operation is possible.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.orderReference</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric, up to 128 digits.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Order reference.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.customerStatement</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 254 characters that may be restricted for specific payment methods.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text visible for the consumer on the bank statement.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.orderText</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 254 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Order text reduced to ASCII-character set.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.timeCreated</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date and time when order has been created.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.timeModified</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date and time when an order has been modified the last time.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.state</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 16 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Current state of order -<code>ORDERED</code>, <code>REFUNDABLE</code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.state</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 16 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Current state of order -<code>ORDERED</code>, <code>REFUNDABLE</code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.sourceOrderNumber</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric, up to 9 digits.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Source order number if there is a connection to another order.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.payments</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Count of corresponding payment objects.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>order.{n}.credits</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Count of corresponding credit objects.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.merchantNumber</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ID of merchant.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.paymentNumber</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric, up to 9 digits.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Number of payment.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.orderNumber</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric, up to 9 digits.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Number of order.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.approvalCode</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Approval code of financial service provider may be an empty string.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.batchNumber</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric, up to 9 digits.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Only available if day-end closing was done the order.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.approveAmount</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Amount</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Approved amount of order.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.depositAmount</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Amount</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Debit amount of order.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.currency</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphabetic or numeric, fixed 3 characters</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Currency code.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.timeCreated</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date and time when payment has been created.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.timeModified</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date and time when payment has been modified the last time.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.state</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphabetic, up to 32 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Current state of payment-<code>payment_approved</code>, <code>payment_deposited</code>, <code>payment_closed</code>, <code>payment_approvalexpired</code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.<a href="../../detailed-description/#paymentType" class="xref page">paymentType</a></code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 64 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Technical property used for the transaction.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.operationsAllowed</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric including special characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Comma-separated string of available backend operations or an empty string if no backend operation is possible.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.gatewayReferenceNumber</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric including special characters, up to 255 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Technical reference number of corresponding financial service provider.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.providerReferenceNumber</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric including special characters, up to 255 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Technical reference number of the corresponding financial service provider or acquirer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.avsResultCode</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric including special characters, up to 5 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Result code of AVS check.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.avsResultMessage</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric including special characters and up to 256 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Result text of AVS check.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.avsProviderResultCode</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric including special characters, up to 5 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Provider result code of AVS check.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.avsProviderResultMessage</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric including special characters, up to 256 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Provider result text of AVS check.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>credit.{n}.{m}.merchantNumber</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ID of merchant.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>credit.{n}.{m}.creditNumber</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric, up to 9 digits.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Credit number.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>credit.{n}.{m}.orderNumber</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric, up to 9 digits.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Order number.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>credit.{n}.{m}.batchNumber</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric, up to 9 digits.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Batch number for corresponding day-end closing.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>credit.{n}.{m}.amount</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Amount</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Amount of credit.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>credit.{n}.{m}.currency</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphabetic or numeric, fixed 3 characters</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Currency code of amount.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>credit.{n}.{m}.timeCreated</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date and time when credit has been created.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>credit.{n}.{m}.timeModified</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Date and time when the credit has been modified the last time.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>credit.{n}.{m}.state</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphabetic including special characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Current state of credit-<code>credit_refunded</code>, <code>credit_closed</code>.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>credit.{n}.operationsAllowed</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric including special characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Comma-separated string of available backend operations or an empty string if no backend operation is possible.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>credit.{n}.{m}.gatewayReferenceNumber</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric including special characters, up to 255 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Technical reference number of corresponding financial service provider.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>credit.{n}.{m}.providerReferenceNumber</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric including special characters, up to 255 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Technical reference number of corresponding financial service provider or acquirer.</p></td>
+</tr>
+</tbody>
+</table>
+<table id="PayPalAdditionalResponse" class="tableblock frame-all grid-all stretch big-screen">
+<caption class="title">Table 14. PayPal</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-middle">Parameter</th>
+<th class="tableblock halign-left valign-middle">Data type</th>
+<th class="tableblock halign-left valign-middle">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.paypalPayerID</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric, up to 13 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">ID of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.paypalBillingAgreementID</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric including special characters, up to 19 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Billing agreement ID created by PayPal which can be used for recurring payments.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.paypalPayerEmail</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric including special characters, up to 127 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">E-mail of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.paypalPayerFirstName</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric, up to 64 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">First name of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.paypalPayerLastName</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric, up to 64 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Last name of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.paypalPayerAddressCountry</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphabetic, up to 50 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Country of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.paypalPayerAddressCountryCode</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphabetic, fixed 2 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Country code (ISO 3166-1) of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.paypalPayerAddressCity</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphabetic, up to 40 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Ciy of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.paypalPayerAddressState</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphabetic, fixed 2 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">State of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.paypalPayerAddressName</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric, up to 100 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Address name of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.paypalPayerAddressStreet1</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric, up to 100 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Street (1) of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.paypalPayerAddressStreet2</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric, up to 100 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Street (2) of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.paypalPayerZIP</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric, up to 32 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Zip code of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.paypalPayerAddressStatus</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric, up to 32 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">State of address verification of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.paypalPayerProtectionEligibility</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric, up to 32 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Information regarding PayPal merchant protection.</p></td>
+</tr>
+</tbody>
+</table>
+<table id="PayPalAdditionalResponseMobile" class="tableblock frame-all grid-all stretch mobile-screen">
+<caption class="title">Table 15. PayPal</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top" colspan="2"><code>payment.{n}.{m}.paypalPayerID</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 13 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ID of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.paypalBillingAgreementID</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric including special characters, up to 19 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Billing agreement ID created by PayPal which can be used for recurring payments.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.paypalPayerEmail</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric including special characters, up to 127 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E-mail of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.paypalPayerFirstName</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 64 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">First name of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.paypalPayerLastName</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 64 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Last name of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.paypalPayerAddressCountry</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphabetic, up to 50 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Country of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.paypalPayerAddressCountryCode</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphabetic, fixed 2 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Country code (ISO 3166-1) of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.paypalPayerAddressCity</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphabetic, up to 40 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ciy of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.paypalPayerAddressState</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphabetic, fixed 2 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">State of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.paypalPayerAddressName</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 100 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Address name of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.paypalPayerAddressStreet1</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 100 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Street (1) of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.paypalPayerAddressStreet2</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 100 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Street (2) of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.paypalPayerZIP</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 20 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Zip code of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.paypalPayerAddressStatus</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 32 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">State of address verification of PayPal consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.paypalPayerProtectionEligibility</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 32 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Information regarding PayPal merchant protection.</p></td>
+</tr>
+</tbody>
+</table>
+<table id="SofortAdditionalResponse" class="tableblock frame-all grid-all stretch big-screen">
+<caption class="title">Table 16. Sofort</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-middle">Parameter</th>
+<th class="tableblock halign-left valign-middle">Data type</th>
+<th class="tableblock halign-left valign-middle">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.senderAccountOwner</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric including special characters, up to 255 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Name of the owner of an account returned by Sofort.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.senderAccountNumber</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric including special characters, up to 255 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Number of the account returned by Sofort.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.senderBankNumber</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric, up to 30 digits.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Bank number of account returned by Sofort.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.senderBankName</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric, up to 30 digits.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Name of a bank as returned by Sofort.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.senderBIC</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric, up to 50 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">BIC of account returned by Sofort.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.senderIBAN</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphanumeric, up to 50 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">IBAN of account returned by Sofort.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.senderCountry</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Alphabetic, fixed 2 characters.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Country code of sender returned by Sofort.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><code>payment.{n}.{m}.securityCriteria</code></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Numeric with a fixed length of 1 digit.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Security criterion returned values:<br>
+1-the criteria were met and 0- the criteria were not met, in that case, the merchant should wait until the amount has been received on his side before sending goods or granting access to digital media.</p></td>
+</tr>
+</tbody>
+</table>
+<table id="SofortAdditionalResponseMobile" class="tableblock frame-all grid-all stretch mobile-screen">
+<caption class="title">Table 17. Sofort</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top" colspan="2"><code>payment.{n}.{m}.senderAccountOwner</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric including special characters, up to 255 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Name of the owner of an account returned by Sofort.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.senderAccountNumber</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric including special characters, up to 255 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Number of the account returned by Sofort.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.senderBankNumber</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric, up to 30 digits.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Bank number of account returned by Sofort.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.senderBankName</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric, up to 30 digits.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Name of a bank as returned by Sofort.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.senderBIC</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 50 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BIC of account returned by Sofort.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.senderIBAN</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphanumeric, up to 50 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">IBAN of account returned by Sofort.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.senderCountry</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alphabetic, fixed 2 characters.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Country code of sender returned by Sofort.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="2"><p class="tableblock"><strong><code>payment.{n}.{m}.securityCriteria</code></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Data</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Value</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Data type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Numeric with a fixed length of 1 digit.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Description</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Security criterion returned values:<br>
+1-the criteria were met and 0- the criteria were not met, in that case, the merchant should wait until the amount has been received on his side before sending goods or granting access to digital media.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer qenta">
+  <div class="uk-section-secondary uk-section">
+    <div class="uk-container">
+      <div class="tm-grid-expand uk-grid-large uk-grid-margin-large uk-grid" uk-grid="">
+        <div class="uk-width-1-3@m uk-first-column">
+          <div class="uk-position-relative uk-margin" style="left: 0px; bottom: 20px;">
+            <a class="el-link" href="#2" uk-scroll=""><img class="el-image" alt="" uk-img=""
+                src="https://sit.hobex.at/wp-content/themes/yootheme/cache/hobex-logo-cmyk-e8548fa7.jpeg" width="160"></a>
+          </div>
+          <div class="uk-panel uk-text-meta uk-position-relative" style="bottom: 20px;">
+            <p>©2025 - HOBEX SERVICE IT GMBH</p>
+          </div>
+        </div>
+        <div class="uk-width-2-3@m">
+          <div class="uk-text-right">
+            <ul class="uk-margin-remove-bottom uk-subnav uk-flex-right" uk-margin="">
+              <li class="el-item uk-first-column">
+                <a class="el-link" href="https://sit.hobex.at/">COMPANY</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/merchant-login/">MERCHANT LOGIN</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/payment-solutions/">SOLUTIONS</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/contact/">CONTACT</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://guides.qenta.com" target="_blank">ONLINE GUIDES</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/download-center/">DOWNLOAD CENTER</a>
+              </li>
+            </ul>
+          </div>
+          <div class="uk-text-right">
+            <ul class="uk-margin-remove-bottom uk-subnav uk-flex-right" uk-margin="">
+              <li class="el-item uk-first-column">
+                <a class="el-link" href="https://sit.hobex.at/en/imprint/">IMPRINT</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://guides.qenta.com/protection-personal-data/data-protection-en/">DATA PROTECTION</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/terms-and-conditions/">T&C</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script id="site-script" src="/_/js/site.js" data-ui-root-path="../../../../../_"></script>
+<script async src="/_/js/vendor/highlight.js"></script>
+<script src="/_/js/vendor/lunr.js"></script>
+<script src="/_/js/search-ui.js" id="search-ui-script" data-site-root-path="../../../../.." data-snippet-length="100" data-stylesheet="../../../../../_/css/search.css"></script>
+<script async src="../../../../../search-index.js"></script>
+  </body>
+</html>
