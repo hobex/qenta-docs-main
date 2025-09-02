@@ -2,8 +2,7 @@ site:
   robots: allow
   start_page: online-guides::index.adoc
   title: hobex Online Guides
-  url: https://guides.qenta.com
-content:
+  url: https://guides.hobex.at
   edit_url: ~
   sources:
     - url: ./
