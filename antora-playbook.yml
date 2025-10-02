@@ -3,7 +3,7 @@ site:
   start_page: online-guides::index.adoc
   title: hobex Online Guides
   url: https://guides.hobex.at
-  
+content: 
   sources:
     - url: ./
       branches: HEAD
