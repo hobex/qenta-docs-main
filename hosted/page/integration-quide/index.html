@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Integration Guide :: hobex Online Guides</title>
+    <link rel="canonical" href="https://guides.hobex.at/online-guides/main/hosted/page/integration-quide/">
+    <meta name="generator" content="Antora 3.1.14">
+    <link rel="stylesheet" href="/_/css/site.css">
+<link rel="stylesheet" href="/_/css/search.css">
+<link rel="stylesheet" href="/_/css/qenta.css">
+<link rel="stylesheet" href="https://use.typekit.net/ucf2gvc.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="/_/css/nav-menu.css">
+<link rel="stylesheet" href="/_/css/tables.css">
+<link rel="icon" href="/_/img/favicon_hobex.jpg" type="image/png">
+  </head>
+  <body class="article">
+<header class="header" role="banner">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://guides.hobex.at">hobex Online Guides</a>
+      <div class="navbar-item search hide-for-print">
+        <div id="search-field" class="field">
+          <input id="search-input" type="text" placeholder="Search the docs">
+        </div>
+      </div>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://guides.qenta.com/">Home</a>
+        </div>
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://sit.hobex.at/">Enterprise</a>
+        </div>
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://sit.hobex.at/haendler-login/">Merchant Login</a>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://guides.hobex.at/contact/">Contact</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="online-guides" data-version="main">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="../../../">hobex Online Guides</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Hosted Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../">Checkout Page</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../quick-guide-for-developers/">Quick Guide For Developers</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="3">
+    <a class="nav-link" href="./">Integration Guide</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../customization/">Customization</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../seamless/">Checkout Seamless</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../seamless/SeamlessImplementation/">Method of Integration</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../seamless/data-storage/">Invoke the Data Storage</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../seamless/seamless-payment-process/">Seamless Payment Process</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../seamless/customization/">Customization</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Web-Based Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../web-based/terminal/">Checkout Terminal</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../web-based/automated/">Checkout Automated</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../web-based/paybylink/">PayByLink</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../web-based/payment-center/">Payment Center</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../web-based/journal/">Checkout Journal</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">API Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../API/paybylinkAPI/">PayByLink API</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text"><a href="https://qtill.guides.hobex.at/" target="\"_blank\"">Checkout Enterprise</a></span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../securing-online-shop/">Securing the Online Shop</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Frontend Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../parameters/frontend/request-parameters/">Request</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../../parameters/frontend/required-parameters/">Required</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../../parameters/frontend/optional-parameters/">Optional</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../parameters/frontend/response-parameters/">Response</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../parameters/datastorage/">Data Storage</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Backend Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../parameters/backend/request-parameters/">Request</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../../parameters/backend/required-parameters/">Required</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../../parameters/backend/optional-parameters/">Optional</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../parameters/backend/response-parameters/">Response</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../parameters/detailed-description/">Detailed Description</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../parameters/error-codes/">Error Codes</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Demo/Test</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../demo-mode/">Demo</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../test-mode/">Test</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../backend/backend-operations/">Backend Operations</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../backend/categories/#transactionBasedOperations">Transaction-based</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../backend/transaction-based/">Available Operations</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../backend/by-payment-method/">Operations by Payment Method</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../backend/categories/#nonTransactionBasedOperations">Non-transaction-based</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../plugins/">Shop Plugins</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../payment-methods/">Payment Methods</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../payment-methods/credit-card/">Credit Card</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../payment-methods/3DS/">3D Secure/Recurring</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../payment-methods/mail-order/">Mail Order and Telephone Order</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/eps/">EPS</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/googlePayApi/">GooglePay</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/ideal/">iDeal</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/klarna/">Klarna</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../payment-methods/paypal-new/">PayPal</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../payment-methods/automatic-3rdparty-permission/">3rd Party Permissions</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../payment-methods/paysafecard/">Paysafecard</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../payment-methods/circlek/">Circle K</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../payment-methods/pagoefectivo/">PagoEfectivo</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../payment-methods/cvs/">CVS</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../payment-methods/dollar-general/">Dollar General</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../payment-methods/obucks/">oBucks</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/p24/">P24</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/safetypay/">Safetypay</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/sepa/">SEPA</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/Visa%20Click%20to%20Pay/">Visa Click to Pay</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../logos/">Logos</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../glossary/">Glossary</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../certificates/">Certificates</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../contact/">Contact</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../migration/">Migration</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">hobex Online Guides</span>
+    <span class="version">main</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="../../../">hobex Online Guides</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../../../">main</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../../../" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../../../">hobex Online Guides</a></li>
+    <li>Hosted Solutions</li>
+    <li><a href="../">Checkout Page</a></li>
+    <li><a href="./">Integration Guide</a></li>
+  </ul>
+</nav>
+<div class="edit-this-page"><a href="https://github.com/hobex/qenta-docs-main/edit/master/content/online-guides/modules/ROOT/pages/hosted/page/integration-quide.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Integration Guide</h1>
+<div class="sect1">
+<h2 id="integrationGuide"><a class="anchor" href="#integrationGuide"></a>Integration Guide</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>To start integrating the payment process in the online shop add an HTML form with some specific field names and values to the web page displaying the order details of the consumer.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="/_images/integration/wcp_ablauf.png" alt="Image" width="800">
+</div>
+</div>
+<div class="paragraph">
+<p>On Checkout Page a web page from our hobex Checkout Server is shown to the consumer containing an HTML form. After the consumer commit, the payment Checkout Page handles the entire communication with the financial service provider. After the payment process is completed, Checkout Page informs the online shop about the result of the payment and forwards the consumer to a specific URL in the online shop which depends on the result of the payment process.</p>
+</div>
+<table id="possibleResults" class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 1. Possible Results</caption>
+<colgroup>
+<col style="width: 14.2857%;">
+<col style="width: 85.7143%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top">State</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><code>SUCCESS</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The payment process has been successfully completed by the consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><code>CANCEL</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The payment process has been canceled by the consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><code>FAILURE</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The payment process has not been finished successfully by the consumer.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><code>PENDING</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The result of the payment process has yet to be determined and typically occurs on payment methods requiring additional checks. The state pending is only used if the request parameter <a href="../../../parameters/detailed-description/#pendingUrl" class="xref page">pendingUrl</a> is used.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+For each possible result state a corresponding URL on the web server is called by the hobex Checkout Server and the consumer is redirected depending on the result of the payment process.
+</td>
+</tr>
+</table>
+</div>
+<div class="imageblock unresolved">
+<div class="content">
+<img src="integration/integration-quide.png" alt="Image" width="800">
+</div>
+<div class="title">Figure 1. Graphical overview of the communication between the online shop and Checkout Page</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+See the example available on <a href="https://github.com/hobex/qcp-example-php" target="\"_blank\"">GitHub</a> that can run on the server.
+</td>
+</tr>
+</table>
+</div>
+<div class="sect2">
+<h3 id="parameters"><a class="anchor" href="#parameters"></a>Parameters</h3>
+<div id="confirmUrl" class="paragraph">
+<p><strong>confirmUrl</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>If the optional request parameter <code><a href="../../../parameters/detailed-description/#confirmUrl" class="xref page">confirmUrl</a></code> is set, Checkout Page calls the given URL with a 30-second timeout using the same return values as for all 4 states. If for any reason the server is not reachable at the moment, the confirmation can be sent again at a later time.</p>
+</li>
+<li>
+<p>If the optional request parameter <code><a href="../../../parameters/detailed-description/#confirmUrl" class="xref page">confirmUrl</a></code> is not set, but instead optional parameter <code><a href="../../../parameters/detailed-description/#confirmMail" class="xref page">confirmMail</a></code>, an e-mail regarding the result of the payment will be received.</p>
+</li>
+<li>
+<p>If neither the <code><a href="../../../parameters/detailed-description/#confirmUrl" class="xref page">confirmUrl</a></code> nor <code><a href="../../../parameters/detailed-description/#confirmMail" class="xref page">confirmMail</a></code> is set, the merchant may not be notified of the payment process outcome (if the consumer closes the browser window prematurely!).</p>
+</li>
+<li>
+<p>If the consumer does not finish the payment process within a time frame of 30 minutes, we check the status of the payment process and sent a notification to the URL set in the request parameter <code><a href="../../../parameters/detailed-description/#confirmUrl" class="xref page">confirmUrl</a></code>.</p>
+</li>
+<li>
+<p>An e-mail for each transaction irrespective of the parameters <code><a href="../../../parameters/detailed-description/#confirmUrl" class="xref page">confirmUrl</a></code> or <code><a href="../../../parameters/detailed-description/#confirmMail" class="xref page">confirmMail</a></code> is possible to get.</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Contact our <a href="../../../contact/#salesTeam" class="xref page">sales team</a> to enable the features above.
+</td>
+</tr>
+</table>
+</div>
+<div class="sect3">
+<h4 id="responseFingerprint"><a class="anchor" href="#responseFingerprint"></a>responseFingerprint</h4>
+<div class="paragraph">
+<p>To check the authenticity of the return values sent from the hobex Checkout Server to the online shop, compare the <code><a href="../../../parameters/detailed-description/#responseFingerprint" class="xref page">responseFingerprint</a></code> with a hash of the return values.</p>
+</div>
+<div class="paragraph">
+<p>Create a string by concatenating all returned parameters and the secret based on the order in the return parameter <code><a href="../../../parameters/detailed-description/#responseFingerprintOrder" class="xref page">responseFingerprintOrder</a></code>. Then hash the string with an <code>HMAC-SHA-512</code> algorithm using the secret as a cryptographic key and compare the result with the value of the return parameter <code><a href="../../../parameters/detailed-description/#responseFingerprint" class="xref page">responseFingerprint</a></code>. If both values are identical, the response is authentic, and if they&#8217;re not, re-check the calculation.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Save all return values after the payment process, or at least the returned order number received from Checkout Page via <code>successUrl</code>, <code>cancelUrl</code>, <code>failureUrl</code>, <code>pendingUrl</code>, or the <code>confirmUrl</code>, to be able to identify each payment of consumers at a later time and to correlate them to the corresponding session and order.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="checkoutJournal"><a class="anchor" href="#checkoutJournal"></a><a href="../../../web-based/journal/" class="xref page" target="\"_blank\"">hobex Service IT Checkout Journal</a></h3>
+<div class="paragraph">
+<p>To check the integration of Checkout Page use <a href="https://portal.hobex.at/journal/" target="\"_blank\"">hobex Service IT Checkout Journal</a> as a debugging tool that gives an overview of transaction details when doing a checkout.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Due to data protection regulations access to the Journal for test transactions can’t be provided.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="displayOptions"><a class="anchor" href="#displayOptions"></a>Display Options</h3>
+<div class="paragraph">
+<p>To integrate Checkout Page into the online shop choose between the following display options:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>Page redirect</strong></p>
+<div class="paragraph">
+<p>In the online shop, consumers first select the desired items or services and start the checkout process usually by clicking the checkout button. Checkout Page opens by redirecting the consumers automatically from the online shop to Checkout Page which replaces the online shop entirely in the browser window. The hobex Service IT-URL is displayed in the address bar.</p>
+</div>
+<div class="paragraph">
+<p>After completing the payment process, consumers are redirected to the online shop and receive relevant information on the result or state of the payment which is sent to the respective <code>successUrl</code>, <code>cancelUrl</code>, <code>failureUrl</code>, or <code>pendingUrl</code>.</p>
+</div>
+<div class="paragraph">
+<p>Use the user interface <a href="../customization/" class="xref page">customization</a> possibilities, so the consumer still has the feeling to be in the online shop.</p>
+</div>
+<div class="paragraph">
+<p>When integrating Checkout Page as a page redirect, the external pages of financial institutions can be displayed as a pop-up or as another redirect to the financial service provider.</p>
+</div>
+</li>
+<li>
+<p><strong>Iframe</strong></p>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Iframe integration is not recommended due to compatibility issues with certain financial institutions.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>In the online shop, consumers first select the desired items or services and start the checkout process usually by clicking the checkout button. An iframe embeds another website or a web page within the current HTML document. Iframes can be configured by their size and with or without scrollbars independently of the surrounding page’s scrollbars.  Checkout Page can be integrated within an iframe in the HTML page of the online shop so that the whole checkout process is surrounded by the online shop and the consumer does not leave the shop.</p>
+</div>
+<div class="paragraph">
+<p>After completing the payment process, consumers are redirected to the online shop and receive relevant information on the result or state of the payment which is sent to the respective <code>successUrl</code>, <code>cancelUrl</code>, <code>failureUrl</code> or <code>pendingUrl</code>.</p>
+</div>
+</li>
+<li>
+<p><strong>Pop-up window</strong></p>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Pop-up window integration is not recommended, because web browsers usually offer an option to block pop-up windows which are typically enabled by default.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>In the online shop, consumers first select the desired items or services and start the checkout process usually by clicking the checkout button. Checkout Page opens as a new browser window in front of the main window overlaying the online shop.</p>
+</div>
+<div class="paragraph">
+<p>After completing the payment process, the pop-up window is closed by hobex Service IT, consumers are redirected to the online shop and receive relevant information on the result or state of the payment which is sent to the respective <code>successUrl</code>, <code>cancelUrl</code>, <code>failureUrl</code> or <code>pendingUrl</code>.</p>
+</div>
+<div class="paragraph">
+<p>NOTE:</p>
+</div>
+<div class="paragraph">
+<p>Checkout Page redirects the consumer by default with a pop-up to all alternative payment methods. This might result in two pop-ups consecutively opening during the checkout process. The exception is cards with 3-D Secure which will be displayed as an iframe within Checkout Page or optionally as a page redirect.</p>
+</div>
+<div class="paragraph">
+<p>When integrating Checkout Page in a pop-up window, the external pages of financial institutions can be displayed as an additional pop-up or as a page redirect in the pop-up window.</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+To use various display options for additional pages, from the financial service provider a different <code>shopId</code> can be requested and a different configuration can be set. Contact our <a href="../../../contact/#supportTeam" class="xref page">integration specialists</a>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer qenta">
+  <div class="uk-section-secondary uk-section">
+    <div class="uk-container">
+      <div class="tm-grid-expand uk-grid-large uk-grid-margin-large uk-grid" uk-grid="">
+        <div class="uk-width-1-3@m uk-first-column">
+          <div class="uk-position-relative uk-margin" style="left: 0px; bottom: 20px;">
+            <a class="el-link" href="#2" uk-scroll=""><img class="el-image" alt="" uk-img=""
+                src="https://sit.hobex.at/wp-content/themes/yootheme/cache/hobex-logo-cmyk-e8548fa7.jpeg" width="160"></a>
+          </div>
+          <div class="uk-panel uk-text-meta uk-position-relative" style="bottom: 20px;">
+            <p>©2025 - HOBEX SERVICE IT GMBH</p>
+          </div>
+        </div>
+        <div class="uk-width-2-3@m">
+          <div class="uk-text-right">
+            <ul class="uk-margin-remove-bottom uk-subnav uk-flex-right" uk-margin="">
+              <li class="el-item uk-first-column">
+                <a class="el-link" href="https://sit.hobex.at/">COMPANY</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/merchant-login/">MERCHANT LOGIN</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/payment-solutions/">SOLUTIONS</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/contact/">CONTACT</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://guides.qenta.com" target="_blank">ONLINE GUIDES</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/download-center/">DOWNLOAD CENTER</a>
+              </li>
+            </ul>
+          </div>
+          <div class="uk-text-right">
+            <ul class="uk-margin-remove-bottom uk-subnav uk-flex-right" uk-margin="">
+              <li class="el-item uk-first-column">
+                <a class="el-link" href="https://sit.hobex.at/en/imprint/">IMPRINT</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://guides.qenta.com/protection-personal-data/data-protection-en/">DATA PROTECTION</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/terms-and-conditions/">T&C</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script id="site-script" src="/_/js/site.js" data-ui-root-path="../../../../../_"></script>
+<script async src="/_/js/vendor/highlight.js"></script>
+<script src="/_/js/vendor/lunr.js"></script>
+<script src="/_/js/search-ui.js" id="search-ui-script" data-site-root-path="../../../../.." data-snippet-length="100" data-stylesheet="../../../../../_/css/search.css"></script>
+<script async src="../../../../../search-index.js"></script>
+  </body>
+</html>

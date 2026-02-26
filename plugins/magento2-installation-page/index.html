@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Magento 2: Installation Guide For Checkout Page :: hobex Online Guides</title>
+    <link rel="canonical" href="https://guides.hobex.at/online-guides/main/plugins/magento2-installation-page/">
+    <meta name="generator" content="Antora 3.1.14">
+    <link rel="stylesheet" href="/_/css/site.css">
+<link rel="stylesheet" href="/_/css/search.css">
+<link rel="stylesheet" href="/_/css/qenta.css">
+<link rel="stylesheet" href="https://use.typekit.net/ucf2gvc.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="/_/css/nav-menu.css">
+<link rel="stylesheet" href="/_/css/tables.css">
+<link rel="icon" href="/_/img/favicon_hobex.jpg" type="image/png">
+  </head>
+  <body class="article">
+<header class="header" role="banner">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://guides.hobex.at">hobex Online Guides</a>
+      <div class="navbar-item search hide-for-print">
+        <div id="search-field" class="field">
+          <input id="search-input" type="text" placeholder="Search the docs">
+        </div>
+      </div>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://guides.qenta.com/">Home</a>
+        </div>
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://sit.hobex.at/">Enterprise</a>
+        </div>
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://sit.hobex.at/haendler-login/">Merchant Login</a>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://guides.hobex.at/contact/">Contact</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="online-guides" data-version="main">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="../../">hobex Online Guides</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Hosted Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../hosted/page/">Checkout Page</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/page/quick-guide-for-developers/">Quick Guide For Developers</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/page/integration-quide/">Integration Guide</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/page/customization/">Customization</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../hosted/seamless/">Checkout Seamless</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/seamless/SeamlessImplementation/">Method of Integration</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/seamless/data-storage/">Invoke the Data Storage</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/seamless/seamless-payment-process/">Seamless Payment Process</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../hosted/seamless/customization/">Customization</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Web-Based Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/terminal/">Checkout Terminal</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/automated/">Checkout Automated</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/paybylink/">PayByLink</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/payment-center/">Payment Center</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../web-based/journal/">Checkout Journal</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">API Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../API/paybylinkAPI/">PayByLink API</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text"><a href="https://qtill.guides.hobex.at/" target="\"_blank\"">Checkout Enterprise</a></span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../securing-online-shop/">Securing the Online Shop</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Frontend Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../parameters/frontend/request-parameters/">Request</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../parameters/frontend/required-parameters/">Required</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../parameters/frontend/optional-parameters/">Optional</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../parameters/frontend/response-parameters/">Response</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../parameters/datastorage/">Data Storage</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Backend Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../parameters/backend/request-parameters/">Request</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../parameters/backend/required-parameters/">Required</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../parameters/backend/optional-parameters/">Optional</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../parameters/backend/response-parameters/">Response</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../parameters/detailed-description/">Detailed Description</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../parameters/error-codes/">Error Codes</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Demo/Test</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../demo-mode/">Demo</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../test-mode/">Test</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../backend/backend-operations/">Backend Operations</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../backend/categories/#transactionBasedOperations">Transaction-based</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../backend/transaction-based/">Available Operations</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../backend/by-payment-method/">Operations by Payment Method</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../backend/categories/#nonTransactionBasedOperations">Non-transaction-based</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../">Shop Plugins</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../payment-methods/">Payment Methods</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../payment-methods/credit-card/">Credit Card</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../payment-methods/3DS/">3D Secure/Recurring</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../payment-methods/mail-order/">Mail Order and Telephone Order</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/eps/">EPS</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/googlePayApi/">GooglePay</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/ideal/">iDeal</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/klarna/">Klarna</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../payment-methods/paypal-new/">PayPal</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../payment-methods/automatic-3rdparty-permission/">3rd Party Permissions</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../payment-methods/paysafecard/">Paysafecard</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../payment-methods/circlek/">Circle K</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../payment-methods/pagoefectivo/">PagoEfectivo</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../payment-methods/cvs/">CVS</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../payment-methods/dollar-general/">Dollar General</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../payment-methods/obucks/">oBucks</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/p24/">P24</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/safetypay/">Safetypay</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/sepa/">SEPA</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../payment-methods/Visa%20Click%20to%20Pay/">Visa Click to Pay</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../logos/">Logos</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../glossary/">Glossary</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../certificates/">Certificates</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../contact/">Contact</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../migration/">Migration</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">hobex Online Guides</span>
+    <span class="version">main</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="../../">hobex Online Guides</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../../">main</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../../" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../../">hobex Online Guides</a></li>
+    <li><a href="./">Magento 2: Installation Guide For Checkout Page</a></li>
+  </ul>
+</nav>
+<div class="edit-this-page"><a href="https://github.com/hobex/qenta-docs-main/edit/master/content/online-guides/modules/ROOT/pages/plugins/magento2-installation-page.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Magento 2: Installation Guide For Checkout Page</h1>
+<div class="sect1">
+<h2 id="installationGuide"><a class="anchor" href="#installationGuide"></a>Magento 2: Installation Guide For Checkout Page</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The installation guide shows the step-by-step installation of the plugin to the installed shop system on a web server. Test the online shop and the plugin&#8217;s configuration on a test system before installing the plugin on a production system.</p>
+</div>
+<div class="sect2 step">
+<h3 id="step1"><a class="anchor" href="#step1"></a>Step 1</h3>
+<div class="paragraph">
+<p>The installation needs to be done in the command line. Download the plugin via composer.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">composer require qenta-cee/magento2-qcp</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The plugin can be installed via command line:</p>
+</div>
+<div class="paragraph">
+<p><strong>Command line</strong></p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>php bin/magento setup:upgrade
+php bin/magento setup:di:compile
+php bin/magento setup:static-content:deploy
+php bin/magento cache:clean</pre>
+</div>
+</div>
+<div class="paragraph">
+<p><strong>Magento 2 Setup Wizard</strong></p>
+</div>
+<div class="paragraph">
+<p>Navigate to <strong>System</strong> &gt; <strong>Web Setup Wizard</strong> &gt; <strong>Component Manager</strong>.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>chown -R www-data:www-data .</pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+To receive a notification when a new version is published, subscribe <a href="https://github.com/hobex/magento2-qcp/subscription" target="\"_blank\"">here</a> and select <strong>Releases only</strong>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2 step">
+<h3 id="step2"><a class="anchor" href="#step2"></a>Step 2</h3>
+<div class="paragraph">
+<p>Navigate to <strong>Stores</strong> &gt; <strong>Configuration</strong> &gt; <strong>Sales</strong> &gt; <strong>hobex Service IT Checkout Page</strong>.</p>
+</div>
+<div class="paragraph">
+<p>For a basic configuration enter <strong>customer ID</strong>, <strong>shop ID</strong>, and <strong>secret</strong> and set the <strong>URL to imprint page</strong>. Go over the settings and configure the plugin according to the requirements. Refer to the section advanced configuration for a more detailed description of the configuration possibilities.</p>
+</div>
+</div>
+<div class="sect2 step">
+<h3 id="step3"><a class="anchor" href="#step3"></a>Step 3</h3>
+<div class="paragraph">
+<p>To enable the payment methods navigate to <strong>Stores</strong> &gt; <strong>Configuration</strong> &gt; <strong>Sales</strong> &gt; <strong>Payment Methods</strong>.</p>
+</div>
+<div class="paragraph">
+<p>To verify the installation check if all selected payment methods are shown at checkout.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="advancedConfiguration"><a class="anchor" href="#advancedConfiguration"></a>Advanced Configuration</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>As described in Step 2 the plugin allows for some additional customization.</p>
+</div>
+<div class="sect2">
+<h3 id="pluginModes"><a class="anchor" href="#pluginModes"></a>Plugin Modes</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Demo</strong>: Demo mode configuration. No communication with the financial service provider but only between the online shop and the hobex Checkout Server.</p>
+</li>
+<li>
+<p><strong>Test</strong>: During test mode, there is communication between the online shop and a test bank or demo bank provided for this purpose by the relevant financial service provider. However, the payment process is only simulated and no money is transferred.</p>
+</li>
+<li>
+<p><strong>Production</strong>: Make sure all of the tests were properly executed before switching to <strong>Production</strong> mode.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="additionalSettings"><a class="anchor" href="#additionalSettings"></a>Additional Settings</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Automated deposit</strong>: To prevent the expiration of uncaptured payments, select the feature that enables an automated deposit and day-end closing of payments. Contact our <a href="../../contact/#salesTeam" class="xref page">sales teams</a> to enable it; otherwise, an error message will be shown.</p>
+</li>
+<li>
+<p><strong>Payment method sort order</strong>: The payments can be sorted in the order of the <strong>"Payment method sort order"</strong> and the payment with the smallest number entered in this field will be displayed first. Sort the payment methods according to which ones are mostly used by consumers.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="deviceDetection"><a class="anchor" href="#deviceDetection"></a>Device Detection</h3>
+<div class="paragraph">
+<p>If this feature is enabled the plugin automatically identifies the consumer device (either desktop, smartphone, or tablet). If a mobile device is identified, the corresponding request parameter layout is automatically set to the value tablet or smartphone, and hobex Service IT Checkout Page is optimized for the corresponding mobile device.</p>
+</div>
+<div class="paragraph">
+<p>To improve usability for smartphones and tablets, the plugin automatically disables the embedding in an iframe on tablets and smartphones and redirects the consumer to hobex Service IT Checkout Page. After the payment process is completed, a consumer is redirected to an online shop.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="enablingInputFields"><a class="anchor" href="#enablingInputFields"></a>Enabling input field "Date of Birth"</h3>
+<div class="paragraph">
+<p>For using payment methods "invoice" or "installment"  the input field "date of birth" must be enabled in the Magento configuration.
+Go to <strong>Stores</strong> &gt; <strong>Configuration</strong> &gt; <strong>Customers</strong> &gt; <strong>Customer Configuration</strong> &gt; <strong>Name and Address Options</strong>, and set <strong>Show Date of Birth</strong> to <strong>Required</strong>.</p>
+</div>
+<div class="paragraph">
+<p>"Invoice" or "installment" is only visible if the criteria defined in the contract concluded with the relevant financial Institution (e.g. payolution) are met. For more information, check the payment method-specific documentation for the invoice/installment provider:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>payolution: <a href="../../payment-methods/invoice-installment/" class="xref page">Invoice and Installment</a></p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<strong>Order with obligation to pay</strong> is not translated because the text is cached. Delete the file <code>pub/static/frontend/Magento/luma/[YOUR_LANGUAGE]/js-translation.js</code>. For example, German <code>[YOUR_LANGUAGE]</code> would be <code>de_DE</code>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer qenta">
+  <div class="uk-section-secondary uk-section">
+    <div class="uk-container">
+      <div class="tm-grid-expand uk-grid-large uk-grid-margin-large uk-grid" uk-grid="">
+        <div class="uk-width-1-3@m uk-first-column">
+          <div class="uk-position-relative uk-margin" style="left: 0px; bottom: 20px;">
+            <a class="el-link" href="#2" uk-scroll=""><img class="el-image" alt="" uk-img=""
+                src="https://sit.hobex.at/wp-content/themes/yootheme/cache/hobex-logo-cmyk-e8548fa7.jpeg" width="160"></a>
+          </div>
+          <div class="uk-panel uk-text-meta uk-position-relative" style="bottom: 20px;">
+            <p>©2025 - HOBEX SERVICE IT GMBH</p>
+          </div>
+        </div>
+        <div class="uk-width-2-3@m">
+          <div class="uk-text-right">
+            <ul class="uk-margin-remove-bottom uk-subnav uk-flex-right" uk-margin="">
+              <li class="el-item uk-first-column">
+                <a class="el-link" href="https://sit.hobex.at/">COMPANY</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/merchant-login/">MERCHANT LOGIN</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/payment-solutions/">SOLUTIONS</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/contact/">CONTACT</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://guides.qenta.com" target="_blank">ONLINE GUIDES</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/download-center/">DOWNLOAD CENTER</a>
+              </li>
+            </ul>
+          </div>
+          <div class="uk-text-right">
+            <ul class="uk-margin-remove-bottom uk-subnav uk-flex-right" uk-margin="">
+              <li class="el-item uk-first-column">
+                <a class="el-link" href="https://sit.hobex.at/en/imprint/">IMPRINT</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://guides.qenta.com/protection-personal-data/data-protection-en/">DATA PROTECTION</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/terms-and-conditions/">T&C</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script id="site-script" src="/_/js/site.js" data-ui-root-path="../../../../_"></script>
+<script async src="/_/js/vendor/highlight.js"></script>
+<script src="/_/js/vendor/lunr.js"></script>
+<script src="/_/js/search-ui.js" id="search-ui-script" data-site-root-path="../../../.." data-snippet-length="100" data-stylesheet="../../../../_/css/search.css"></script>
+<script async src="../../../../search-index.js"></script>
+  </body>
+</html>

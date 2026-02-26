@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Data Storage :: hobex Online Guides</title>
+    <link rel="canonical" href="https://guides.hobex.at/online-guides/main/hosted/seamless/data-storage/">
+    <meta name="generator" content="Antora 3.1.14">
+    <link rel="stylesheet" href="/_/css/site.css">
+<link rel="stylesheet" href="/_/css/search.css">
+<link rel="stylesheet" href="/_/css/qenta.css">
+<link rel="stylesheet" href="https://use.typekit.net/ucf2gvc.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="/_/css/nav-menu.css">
+<link rel="stylesheet" href="/_/css/tables.css">
+<link rel="icon" href="/_/img/favicon_hobex.jpg" type="image/png">
+  </head>
+  <body class="article">
+<header class="header" role="banner">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://guides.hobex.at">hobex Online Guides</a>
+      <div class="navbar-item search hide-for-print">
+        <div id="search-field" class="field">
+          <input id="search-input" type="text" placeholder="Search the docs">
+        </div>
+      </div>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://guides.qenta.com/">Home</a>
+        </div>
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://sit.hobex.at/">Enterprise</a>
+        </div>
+        <div class="navbar-item is-hoverable">
+          <a class="navbar-link" href="https://sit.hobex.at/haendler-login/">Merchant Login</a>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://guides.hobex.at/contact/">Contact</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="online-guides" data-version="main">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="../../../">hobex Online Guides</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Hosted Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../page/">Checkout Page</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../page/quick-guide-for-developers/">Quick Guide For Developers</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../page/integration-quide/">Integration Guide</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../page/customization/">Customization</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../">Checkout Seamless</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../SeamlessImplementation/">Method of Integration</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="3">
+    <a class="nav-link" href="./">Invoke the Data Storage</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../seamless-payment-process/">Seamless Payment Process</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../customization/">Customization</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Web-Based Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../web-based/terminal/">Checkout Terminal</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../web-based/automated/">Checkout Automated</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../web-based/paybylink/">PayByLink</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../web-based/payment-center/">Payment Center</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../web-based/journal/">Checkout Journal</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">API Solutions</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../API/paybylinkAPI/">PayByLink API</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <span class="nav-text"><a href="https://qtill.guides.hobex.at/" target="\"_blank\"">Checkout Enterprise</a></span>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../securing-online-shop/">Securing the Online Shop</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Frontend Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../parameters/frontend/request-parameters/">Request</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../../parameters/frontend/required-parameters/">Required</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../../parameters/frontend/optional-parameters/">Optional</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../parameters/frontend/response-parameters/">Response</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../parameters/datastorage/">Data Storage</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Backend Parameters</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../parameters/backend/request-parameters/">Request</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../../parameters/backend/required-parameters/">Required</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../../../parameters/backend/optional-parameters/">Optional</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../parameters/backend/response-parameters/">Response</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../parameters/detailed-description/">Detailed Description</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../parameters/error-codes/">Error Codes</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <span class="nav-text">Demo/Test</span>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../demo-mode/">Demo</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../test-mode/">Test</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../backend/backend-operations/">Backend Operations</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../backend/categories/#transactionBasedOperations">Transaction-based</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../backend/transaction-based/">Available Operations</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../backend/by-payment-method/">Operations by Payment Method</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../backend/categories/#nonTransactionBasedOperations">Non-transaction-based</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../plugins/">Shop Plugins</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../payment-methods/">Payment Methods</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../payment-methods/credit-card/">Credit Card</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../payment-methods/3DS/">3D Secure/Recurring</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../payment-methods/mail-order/">Mail Order and Telephone Order</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/eps/">EPS</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/googlePayApi/">GooglePay</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/ideal/">iDeal</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/klarna/">Klarna</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../payment-methods/paypal-new/">PayPal</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../payment-methods/automatic-3rdparty-permission/">3rd Party Permissions</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../../../payment-methods/paysafecard/">Paysafecard</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../payment-methods/circlek/">Circle K</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../payment-methods/pagoefectivo/">PagoEfectivo</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../payment-methods/cvs/">CVS</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../payment-methods/dollar-general/">Dollar General</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../../../payment-methods/obucks/">oBucks</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/p24/">P24</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/safetypay/">Safetypay</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/sepa/">SEPA</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../../../payment-methods/Visa%20Click%20to%20Pay/">Visa Click to Pay</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../logos/">Logos</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../glossary/">Glossary</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../certificates/">Certificates</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../contact/">Contact</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../../../migration/">Migration</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">hobex Online Guides</span>
+    <span class="version">main</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="../../../">hobex Online Guides</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../../../">main</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../../../" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../../../">hobex Online Guides</a></li>
+    <li>Hosted Solutions</li>
+    <li><a href="../">Checkout Seamless</a></li>
+    <li><a href="./">Invoke the Data Storage</a></li>
+  </ul>
+</nav>
+<div class="edit-this-page"><a href="https://github.com/hobex/qenta-docs-main/edit/master/content/online-guides/modules/ROOT/pages/hosted/seamless/data-storage.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Data Storage</h1>
+<div class="sect1">
+<h2 id="dataStorage"><a class="anchor" href="#dataStorage"></a>Data Storage</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The hobex Data Storage is used for storing sensitive payment data of the consumer during the payment process of the online shop. By using the functionality merchant is able to retrieve, send and store e.g. credit card numbers of the consumer without using the web server. This ensures that online shops and web servers don&#8217;t need to be PCI-compliant.</p>
+</div>
+<div class="sect2">
+<h3 id="initialization"><a class="anchor" href="#initialization"></a>Initialization</h3>
+<div class="paragraph">
+<p>hobex Data Storage can be initialized at the beginning of the payment process in the online shop.
+After initialization, the Data Storage session for a specific consumer is valid for 30 minutes after the last access from the online shop to the Data Storage. After 30 minutes the session becomes invalid and a new Data Storage has to be initialized.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+For PHP we provide an example code on <a href="https://github.com/hobex/qcs-example-php" target="\"_blank\"">GitHub</a>.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>The hobex Data Storage is only required for the following payment methods which manage sensitive payment data of the consumer:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="../../../payment-methods/credit-card/" class="xref page">Credit Card</a></p>
+</li>
+<li>
+<p><a href="../../../payment-methods/mail-order/" class="xref page">Credit Card-Mail Order and Telephone Order</a></p>
+</li>
+<li>
+<p>Maestro SecureCode</p>
+</li>
+<li>
+<p><a href="../../../payment-methods/sepa/" class="xref page">SEPA Direct Debit</a></p>
+</li>
+<li>
+<p><a href="../../../payment-methods/googlePayApi/" class="xref page">GooglePay</a></p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+For all other supported payment methods data doesn&#8217;t need to be stored in the Data Storage before starting the payment process itself.
+GooglePay works with SAQ-A implementation only!
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>To initialize the hobex Data Storage, send a server-to-server request from the web server to a specific URL containing some specific request parameters: <code>https://papi.hobex.at/seamless/dataStorage/init</code>.</p>
+</div>
+<div class="paragraph">
+<p>Enable server-to-server requests within the configuration of the web server and firewall settings for sending data from the server to <code>papi.hobex.at</code> (<code>212.183.46.16/28</code>).</p>
+</div>
+<div class="paragraph">
+<p>For a valid request, the correct HTTP header elements have to be set within the request:</p>
+</div>
+<table id="httpHeaders" class="tableblock frame-all grid-all" style="width: 80%;">
+<caption class="title">Table 1. HTTP Header Parameters</caption>
+<colgroup>
+<col style="width: 28.5714%;">
+<col style="width: 71.4286%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">HTTP header parameter</th>
+<th class="tableblock halign-left valign-top">Description and value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Host</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Domain name of server, value: <code>papi.hobex.at</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>User-Agent</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">User agent string of client</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Content-Type</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">MIME type of the body, value: <code>application/x-www-form-urlencoded</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Content-Length</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Length of the body in bytes</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Connection</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Type of connection, value: <code>close</code></p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Incorrect setting of the header parameters results in an HTTP 403 error message of the hobex Checkout Server.
+</td>
+</tr>
+</table>
+</div>
+<div class="sect3">
+<h4 id="computingFingerprint"><a class="anchor" href="#computingFingerprint"></a><a href="../../../parameters/frontend/request-parameters/#computingFingerprint" class="xref page">Computing the fingerprint</a></h4>
+<div class="paragraph">
+<p>If the optional parameters <code>shopId</code> and `javascriptScriptVersion`are not used then they must be omitted in the fingerprint string.</p>
+</div>
+<div class="paragraph">
+<p>Concatenation of the request parameters and the secret has to be done in the following order: <code>customerId</code>,<code>shopId</code>,<code>orderIdent</code>,<code>returnUrl</code>,<code>language</code>,<code>javascriptScriptVersion</code>,<code>secret</code></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="parameters"><a class="anchor" href="#parameters"></a>Parameters</h4>
+<div id="bigscreenLink" class="paragraph">
+<p><a href="../../../parameters/datastorage/#requiredParameters" class="xref page">Required</a>, <a href="../../../parameters/datastorage/#optionalDatastorage" class="xref page">optional request</a> and <a href="../../../parameters/datastorage/#responseDatastorage" class="xref page">response</a> parameters for Initialization of hobex Data Storage.</p>
+</div>
+<div id="mobileLink" class="paragraph">
+<p><a href="../../../parameters/datastorage/#requiredParametersMobile" class="xref page">Required</a>, <a href="../../../parameters/datastorage/#optionalDatastorageMobile" class="xref page">optional request</a> and <a href="../../../parameters/datastorage/#responseDatastorage" class="xref page">response</a> parameters for Initialization of hobex Data Storage.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+After the Data Storage initiation request is sent as a server-to-server request from the web server to the hobex Checkout Server the merchant will get the result as key-value pairs returned in the content of the response.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>For example, a successful initiation of the hobex Data Storage would return:</p>
+</div>
+<div class="listingblock source_10">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-php hljs" data-lang="php">storageId=73171af0b8990b9ef2d11b2070f54ad3&amp;javascriptUrl=\https://papi.hobex.at/seamless/dataStorage/init/js/D200001/seamless/73171af0b8990b9ef2d11b2070f54ad3/dataStorage.js</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If the initialization did not succeed the merchant will get parameters describing the <a href="../../../parameters/backend/response-parameters/#errorParameters" class="xref page">error</a>.</p>
+</div>
+<div class="paragraph">
+<p>Example of possible error:</p>
+</div>
+<div class="listingblock source_10">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-php hljs" data-lang="php">error.1.errorCode=11500&amp;error.1.message=CUSTOMERID+is+missing.&amp;error.2.errorCode=11009&amp;error.2.message=Language+is+missing.&amp;error.3.errorCode=15300&amp;error.3.message=ORDERIDENT+has+an+invalid+length.&amp;error.4.errorCode=11301&amp;error.4.message=RETURNURL+is+missing.&amp;error.5.errorCode=11506&amp;error.5.message=REQUESTFINGERPRINT+is+missing.&amp;errors=5</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="iframe"><a class="anchor" href="#iframe"></a>Iframe for SAQ-A Implementation</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+This step is not applicable for a SAQ-A-EP implementation!
+</td>
+</tr>
+</table>
+</div>
+<div id="creditCard" class="listingblock source_10">
+<div class="title">For Credit Card</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-html hljs" data-lang="html">&lt;div id="creditcardDataIframe"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+  var wd = new QentaCEE_DataStorage();
+  wd.buildIframeCreditCard('creditcardDataIframe', '100%', '250px');
+&lt;/script&gt;</code></pre>
+</div>
+</div>
+<div id="MOTO" class="listingblock source_10">
+<div class="title">For Credit Card-Mail Order and Telephone Order</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-html hljs" data-lang="html">&lt;div id="creditcardMotoDataIframe"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+  var wd = new QentaCEE_DataStorage();
+  wd.buildIframeCreditCardMoto('creditcardMotoDataIframe', '100%', '250px');
+&lt;/script&gt;</code></pre>
+</div>
+</div>
+<div id="maestroSecureCode" class="listingblock source_10">
+<div class="title">For Maestro SecureCode</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-html hljs" data-lang="html">&lt;div id="MaestroDataIframe"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+  var wd = new QentaCEE_DataStorage();
+  wd.buildIframeMaestro('MaestroDataIframe', '100%', '250px');
+&lt;/script&gt;</code></pre>
+</div>
+</div>
+<div id="googlePay" class="listingblock source_10">
+<div class="title">For googlePay</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-html hljs" data-lang="html">&lt;div id="googlePayIframe"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+  var wd = new QentaCEE_DataStorage();
+  wd.buildIframeGooglePay('googlePayIframe', '100%', '250px');
+&lt;/script&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The <code>buildIframe</code> function contains:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>ID of the HTML element</p>
+</li>
+<li>
+<p>Iframe width</p>
+</li>
+<li>
+<p>Iframe height</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="storingSensitivePaymentData"><a class="anchor" href="#storingSensitivePaymentData"></a>Storing sensitive payment data</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+GooglePay does not support a store operation
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Before using the store operation the merchant should ensure tha the returned JavaScript URL is included in the return parameter of the Data Storage initialization within the HTML page. Load the JavaScript at the bottom of the page to speed up the page loading time.</p>
+</div>
+<div class="paragraph">
+<p>JavaScript URL in PHP by the following code fragment should be included, where <code>$javascriptURL</code> is the URL the merchant has to include to the HTML page for using the JavaScript-based storing functions and objects.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-php hljs" data-lang="php">&lt;script src="&lt;?php echo $javascriptURL; ?&gt;" type="text/javascript"&gt;&lt;/script&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Then create an instance of the JavaScript class <code>QentaCEE_DataStorage</code>, which is defined within the previously included URL.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-php hljs" data-lang="php">var dataStorage = new QentaCEE_DataStorage();</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Then create a new and empty JavaScript object which will be filled with the sensitive payment data:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-php hljs" data-lang="php">var paymentInformation = {};</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Depending on the payment method the merchant adds various properties to this JavaScript object, e.g. for Credit Card, Credit Card-Mail Order and Telephone Order, and Maestro SecureCode add the following properties (the values of these properties are directly taken from the HTML form by accessing the values of the form elements via the DOM of the web browser):</p>
+</div>
+<div class="listingblock source_10">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-php hljs" data-lang="php">paymentInformation.pan = document.getElementById('cc_pan').value;
+paymentInformation.expirationMonth = document.getElementById('cc_expirationMonth').value;
+paymentInformation.expirationYear = document.getElementById('cc_expirationYear').value;
+paymentInformation.cardholdername = document.getElementById('cc_cardholdername').value;
+paymentInformation.cardverifycode = document.getElementById('cc_cardverifycode').value;
+paymentInformation.issueMonth = document.getElementById('cc_issueMonth').value;
+paymentInformation.issueYear = document.getElementById('cc_issueYear').value;
+paymentInformation.issueNumber = document.getElementById('cc_issueNumber').value;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>After setting all properties to the <code>paymentInformation</code> object the merchant only needs to call a specific JavaScript function which is also available in the JavaScript file that is included before:</p>
+</div>
+<div class="paragraph">
+<p><strong>Credit Card</strong></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-php hljs" data-lang="php">dataStorage.storeCreditCardInformation(paymentInformation, callbackFunction);</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><strong>Credit Card-Mail Order and Telephone Order</strong></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-php hljs" data-lang="php">dataStorage.storeCreditCardMotoInformation(paymentInformation, callbackFunction);</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><strong>Maestro SecureCode</strong></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-php hljs" data-lang="php">dataStorage.storeMaestroInformation(paymentInformation, callbackFunction);</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The <code>callbackFunction</code> is a JavaScript function where the merchant is able to handle the result of the storage operation and use the following functions:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Function</th>
+<th class="tableblock halign-left valign-top">Descritpion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>getStatus()</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Returns 0 for a successful storage operation otherwise 1.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>getAnonymizedPaymentInformation()</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Returns anonymized payment information as a simple JavaScript object.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>getErrors()</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Returns the errors as a simple JavaScript object.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>A very simplified example of this callback function can be:</p>
+</div>
+<div class="listingblock source_10">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-php hljs" data-lang="php">callbackFunction = function(aResponse) {
+  // initiates the result string presented to the user
+  var s = "Response of hobex Data Storage call:\n\n";
+  // checks if response status is without errors
+  if (aResponse.getStatus() == 0) {
+    // saves all anonymized payment information to a JavaScript object
+    var info = aResponse.getAnonymizedPaymentInformation();
+
+    //Response for paymentTypes: CCARD, CCARD-MOTO, MAESTRO
+    s + = "Response for paymentTypes: CCARD, CCARD-MOTO, MAESTRO\n";
+    s += "anonymousPan: " + info.anonymousPan + "\n";
+    s += "maskedPan: " + info.maskedPan + "\n";
+    s += "financialInstitution: " + info.financialInstitution + "\n";
+    s += "brand: " + info.brand + "\n";
+    s += "cardholdername: " + info.cardholdername + "\n";
+    s += "expiry: " + info.expiry + "\n";
+
+    //Response for paymentType: SEPA-DD
+    s + = "Response for paymentType: SEPA-DD\n";
+    s += "bankBic: " + info.bankBic + "\n";
+    s += "bankAccountIban: " + info.bankAccountIban + "\n";
+    s += "accountOwner: " + info.accountOwner + "\n";
+
+  } else {
+    // collects all occurred errors and adds them to the result string
+    var errors = aResponse.getErrors();
+    for (e in errors) {
+      s += "Error " + e + ": " + errors[e].message + " (Error Code: " + errors[e].errorCode + ")\n";
+    }
+  }
+  // presents result string to the user
+  alert(s);
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>To store the sensitive data of the consumer in the hobex Service IT Data Storage the merchant should use the following payment-specific JavaScript functions, which are included as a JavaScript file before.</p>
+</div>
+<div class="listingblock source_10">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-php hljs" data-lang="php">dataStorage.storeCreditCardInformation(paymentInformation, callbackFunction);
+
+dataStorage.storeCreditCardMotoInformation(paymentInformation, callbackFunction);
+
+dataStorage.storeMaestroInformation(paymentInformation, callbackFunction);
+
+dataStorage.storeSepaDdInformation(paymentInformation, callbackFunction);</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If the initialization did not succeed the merchant will get parameters describing the <a href="../../../parameters/backend/response-parameters/#errorParameters" class="xref page">error</a>.</p>
+</div>
+<div class="sect3">
+<h4 id="_parameters"><a class="anchor" href="#_parameters"></a>Parameters</h4>
+<div id="bigscreenLinkDatastorage" class="paragraph">
+<p><a href="../../../parameters/datastorage/#requiredPaymentMethods" class="xref page">Required</a>, <a href="../../../parameters/datastorage/#optionalPaymentMethods" class="xref page">optional request</a> and <a href="../../../parameters/datastorage/#responsePaymentMethods" class="xref page">response</a> parameters for payment methods Credit Card, Credit Card-Mail Order and Telephone Order, and MaestroSecureCode.</p>
+</div>
+<div id="mobileLinkDatastorage" class="paragraph">
+<p><a href="../../../parameters/datastorage/#requiredPaymentMethods" class="xref page">Required</a>, <a href="../../../parameters/datastorage/#optionalPaymentMethods" class="xref page">optional request</a> and <a href="../../../parameters/datastorage/#responsePaymentMethodsMobile" class="xref page">response</a> parameters for payment methods Credit Card, Credit Card-Mail Order and Telephone Order, and MaestroSecureCode.</p>
+</div>
+<div class="paragraph">
+<p>The optional parameter brand may contain one of the following values:</p>
+</div>
+<table id="valueOfBrandForCreditCards" class="tableblock frame-all grid-all" style="width: 60%;">
+<caption class="title">Table 2. Value of brand for Credit Cards</caption>
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">American Express</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Diners Club</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Discover</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mastercard</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Visa</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Maestro SecureCode</p></td>
+</tr>
+</tbody>
+</table>
+<div id="sepaStoringSensitivePaymentData" class="paragraph">
+<p><strong>SEPA Direct Debit</strong></p>
+</div>
+<div class="paragraph">
+<p><a href="../../../parameters/datastorage/#requiredSEPA" class="xref page">Required request</a> and <a href="../../../parameters/datastorage/#optionalSEPA" class="xref page">optional request</a> parameters for <a href="../../../payment-methods/sepa/" class="xref page">SEPA Direct Debit</a>.</p>
+</div>
+<div class="paragraph">
+<p>Code example for setting the properties within the paymentInformation JavaScript object:</p>
+</div>
+<div class="listingblock source_10">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-php hljs" data-lang="php">paymentInformation.bankBic = document.getElementById('sepa-dd_bankBic').value;
+paymentInformation.bankAccountIban = document.getElementById('sepa-dd_bankAccountIban').value;
+paymentInformation.accountOwner = document.getElementById('sepa-dd_accountOwner').value;</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="verification"><a class="anchor" href="#verification"></a>Verification</h3>
+<div class="paragraph">
+<p>In order to immediately verify the correctness of entered credit card data and to proceed to the next step of the payment process.</p>
+</div>
+<div class="paragraph">
+<p><em>Credit Card</em></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-php hljs" data-lang="php">dataStorage.storeCreditCardInformation(null, callbackFunction);</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><em>Credit Card-Mail Order and Telephone Order</em></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-php hljs" data-lang="php">dataStorage.storeCreditCardMotoInformation(null, callbackFunction);</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><em>Maestro SecureCode</em></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-php hljs" data-lang="php">dataStorage.storeMaestroInformation(null, callbackFunction);</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><em>googlePay</em></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-php hljs" data-lang="php">Not applicable</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><code>callbackFunction</code> is a JavaScript function that allows handling the result of the storage operations, however, this function is optional since credit card-specific data are already stored during input when the consumer changes from one field to another. The result is only returned if the consumer&#8217;s browser supports <code>postMessages</code>; otherwise, the returned value is <code>null</code>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="readingStoredPaymentData"><a class="anchor" href="#readingStoredPaymentData"></a>Reading stored payment data</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+GooglePay does not support a read operation
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>After initializing the Data Storage the merchant is able to read at least the <code>storageId</code> for the current checkout of the consumer. The Data Storage session for a specific consumer is only valid for 30 minutes after the latest read or write access from the merchant side. After this time the merchant have to initialize the Data Storage again and to has also to store the sensitive payment data of the consumer again.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Testing if the session with that <code>storageId</code>  is still valid or already invalidated.</p>
+</li>
+<li>
+<p>Extending the session lifetime for another 30 minutes.</p>
+</li>
+<li>
+<p>Reading sensitive payment data that are stored to this Data Storage.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The read operation for the hobex Data Storage, sends a server-to-server request from the web server to a specific URL containing some specific request parameters: <code>https://papi.hobex.at/seamless/dataStorage/read</code>.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Enable server-to-server requests within the configuration of the web server.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>For a proper request the merchant has to set the correct <a href="#httpHeaders">HTTP header</a> elements within the request.</p>
+</div>
+<div class="sect3">
+<h4 id="computing"><a class="anchor" href="#computing"></a><a href="../../../parameters/frontend/request-parameters/#computingFingerprint" class="xref page">Computing the Fingerprint</a></h4>
+<div class="paragraph">
+<p>If the optional parameters <code>shopId</code> and `javascriptScriptVersion`are not used then they must be omitted in the fingerprint string.</p>
+</div>
+<div class="paragraph">
+<p>Concatenation of the request parameters and the secret has to be done in the following order: <code>customerId</code>,<code>shopId</code>,<code>storageId</code>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="parametersDataStorage"><a class="anchor" href="#parametersDataStorage"></a>Parameters</h4>
+<div id="bigscreenLinkReading" class="paragraph">
+<p><a href="../../../parameters/datastorage/#requiredReading" class="xref page">Required</a>, <a href="../../../parameters/datastorage/#optionalReading" class="xref page">optional request</a> and <a href="../../../parameters/datastorage/#responseReading" class="xref page">response</a> parameters for Reading Stored Payment Data.</p>
+</div>
+<div id="mobileLinkReading" class="paragraph">
+<p><a href="../../../parameters/datastorage/#requiredReading" class="xref page">Required</a>, <a href="../../../parameters/datastorage/#optionalReading" class="xref page">optional request</a> and <a href="../../../parameters/datastorage/#responseReadingMobile" class="xref page">response</a> parameters for Reading Stored Payment Data.</p>
+</div>
+<div class="paragraph">
+<p>After the Data Storage initiation request is sent as a server-to-server request from the web server to the hobex Checkout Server the merchant will get the result as key-value pairs returned in the content of the response.</p>
+</div>
+<div id="bigscreenLinkReadingSpecific" class="paragraph">
+<p>Returned payment method <a href="../../../parameters/datastorage/#returnedPaymentMethodSpecific" class="xref page">specific parameters</a> are dependent on the payment method the consumer chooses.</p>
+</div>
+<div id="mobileLinkReadingSpecific" class="paragraph">
+<p>Returned payment method <a href="../../../parameters/datastorage/#returnedPaymentMethodSpecificMobile" class="xref page">specific parameters</a> are dependent on the payment method the consumer chooses.</p>
+</div>
+<div class="paragraph">
+<p>If the read operation did not succeed the merchant will get parameters describing the <a href="../../../parameters/backend/response-parameters/#errorParameters" class="xref page">error</a>.</p>
+</div>
+<div class="paragraph">
+<p>An example of a possible error:</p>
+</div>
+<div class="listingblock source_10">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-php hljs" data-lang="php">error.1.errorCode=11500&amp;error.1.message=CUSTOMERID+is+missing.&amp;error.2.errorCode=11506&amp;error.2.message=REQUESTFINGERPRINT+is+missing.&amp;errors=2</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="parametersinputFields"><a class="anchor" href="#parametersinputFields"></a>Parameters</h3>
+<div class="paragraph">
+<p>Request parameters are <a href="../../../parameters/datastorage/#optionalpciDssC" class="xref page">optional parameters</a> used to display or hide credit card-related input fields.</p>
+</div>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer qenta">
+  <div class="uk-section-secondary uk-section">
+    <div class="uk-container">
+      <div class="tm-grid-expand uk-grid-large uk-grid-margin-large uk-grid" uk-grid="">
+        <div class="uk-width-1-3@m uk-first-column">
+          <div class="uk-position-relative uk-margin" style="left: 0px; bottom: 20px;">
+            <a class="el-link" href="#2" uk-scroll=""><img class="el-image" alt="" uk-img=""
+                src="https://sit.hobex.at/wp-content/themes/yootheme/cache/hobex-logo-cmyk-e8548fa7.jpeg" width="160"></a>
+          </div>
+          <div class="uk-panel uk-text-meta uk-position-relative" style="bottom: 20px;">
+            <p>©2025 - HOBEX SERVICE IT GMBH</p>
+          </div>
+        </div>
+        <div class="uk-width-2-3@m">
+          <div class="uk-text-right">
+            <ul class="uk-margin-remove-bottom uk-subnav uk-flex-right" uk-margin="">
+              <li class="el-item uk-first-column">
+                <a class="el-link" href="https://sit.hobex.at/">COMPANY</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/merchant-login/">MERCHANT LOGIN</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/payment-solutions/">SOLUTIONS</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/contact/">CONTACT</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://guides.qenta.com" target="_blank">ONLINE GUIDES</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/download-center/">DOWNLOAD CENTER</a>
+              </li>
+            </ul>
+          </div>
+          <div class="uk-text-right">
+            <ul class="uk-margin-remove-bottom uk-subnav uk-flex-right" uk-margin="">
+              <li class="el-item uk-first-column">
+                <a class="el-link" href="https://sit.hobex.at/en/imprint/">IMPRINT</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://guides.qenta.com/protection-personal-data/data-protection-en/">DATA PROTECTION</a>
+              </li>
+              <li class="el-item">
+                <a class="el-link" href="https://sit.hobex.at/en/terms-and-conditions/">T&C</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script id="site-script" src="/_/js/site.js" data-ui-root-path="../../../../../_"></script>
+<script async src="/_/js/vendor/highlight.js"></script>
+<script src="/_/js/vendor/lunr.js"></script>
+<script src="/_/js/search-ui.js" id="search-ui-script" data-site-root-path="../../../../.." data-snippet-length="100" data-stylesheet="../../../../../_/css/search.css"></script>
+<script async src="../../../../../search-index.js"></script>
+  </body>
+</html>
