@@ -1,6 +1,8 @@
 [submodule "ui-customizations"]
 	path = ui-customizations
 	url = https://github.com/hobex/qenta-docs-ui-customizations.git
+	branch = master
 [submodule "content"]
 	path = content
 	url = https://github.com/hobex/qenta-docs-content.git
+	branch = master
