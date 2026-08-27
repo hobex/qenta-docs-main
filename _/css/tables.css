@@ -1,0 +1,225 @@
+/*TABLES RESPONSIVE*/
+@media screen and (min-width: 1440px){
+  .big-screen {
+    display:block;
+  }
+  .mobile-screen {
+    display:none;
+  }
+}
+@media screen and (max-width: 1435px){
+  .big-screen {
+    display:none;
+  }
+  .mobile-screen {
+    display:block;
+  }
+}
+@media screen and (min-width: 430px){
+  .big-screen{
+    display:block
+  }
+  .mobile-screen{
+    display:none
+  }
+}
+@media screen and (max-width: 430px){
+  .big-screen{
+    display:none
+  }
+  .mobile-screen{
+    display:block
+  }
+}
+@media screen and (min-width: 429px){
+  #transactionBasedOperationsRiverityMobile,
+  .toc .toc-menu li[data-level="2"] a[href="#transactionBasedOperationsRiverityMobile"],
+  #transactionBasedOperationsCreditCardMobile,
+  .toc .toc-menu li[data-level="2"] a[href="#transactionBasedOperationsCreditCardMobile"],
+  #transactionBasedOperationsEPSMobile,
+  .toc .toc-menu li[data-level="2"] a[href="#transactionBasedOperationsEPSMobile"],
+  #transactionBasedOperationsPayolutionMobile,
+  .toc .toc-menu li[data-level="2"] a[href="#transactionBasedOperationsPayolutionMobile"],
+  #transactionBasedOperationsPayPalMobile,
+  .toc .toc-menu li[data-level="2"] a[href="#transactionBasedOperationsPayPalMobile"],
+  #transactionBasedOperationsPaysafecardMobile,
+  .toc .toc-menu li[data-level="2"] a[href="#transactionBasedOperationsPaysafecardMobile"],
+  #transactionBasedOperationsPrzelewy24Mobile,
+  .toc .toc-menu li[data-level="2"] a[href="#transactionBasedOperationsPrzelewy24Mobile"],
+  #transactionBasedOperationsSEPAMobile,
+  .toc .toc-menu li[data-level="2"] a[href="#transactionBasedOperationsSEPAMobile"],
+  #transactionBasedOperationsSofortMobile,
+  .toc .toc-menu li[data-level="2"] a[href="#transactionBasedOperationsSofortMobile"],
+  #transactionBasedOperationsRiverity,
+  #transactionBasedOperationsCreditCard,
+  #transactionBasedOperationsEPS,
+  #transactionBasedOperationsPayolution,
+  #transactionBasedOperationsPayPal,
+  #transactionBasedOperationsPaysafecard,
+  #transactionBasedOperationsPrzelewy24,
+  #transactionBasedOperationsSEPA,
+  #transactionBasedOperationsSofort {
+    display:none !important;
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 429px){
+  #transactionBasedOperationsRiverityMobile,
+  #transactionBasedOperationsCreditCardMobile,
+  #transactionBasedOperationsEPSMobile,
+  #transactionBasedOperationsPayolutionMobile,
+  #transactionBasedOperationsPayPalMobile,
+  #transactionBasedOperationsPaysafecardMobile,
+  #transactionBasedOperationsPrzelewy24Mobile,
+  #transactionBasedOperationsSEPAMobile,
+  #transactionBasedOperationsSofortMobile,
+  #transactionBasedOperationsRiverity,
+  #transactionBasedOperationsCreditCard,
+  #transactionBasedOperationsEPS,
+  #transactionBasedOperationsPayolution,
+  #transactionBasedOperationsPayPal,
+  #transactionBasedOperationsPaysafecard,
+  #transactionBasedOperationsPrzelewy24,
+  #transactionBasedOperationsSEPA,
+  #transactionBasedOperationsSofort {
+    display: block;
+  }
+}
+/*END TABLES RESPONSIVE*/
+/*links for mobile*/
+@media screen and (min-width: 430px){
+  #bigscreenLink,
+  #bigscreenLinkTestDataSepa,
+  #bigscreenLinkDatastorage,
+  #bigscreenLinkReading,
+  #bigscreenLinkReadingSpecific,
+  #bigscreenLinkRecurPayment,
+  #bigscreenLinkSEPAResponse{
+    display:block;
+  }
+  #mobileLink,
+  #mobileLinkDatastorage,
+  #mobileLinktestDataSepa ,
+  #mobileLinkReading,
+  #mobileLinkReadingSpecific,
+  #mobileLinkRecurPayment,
+  #mobileLinkSEPAResponse {
+    display:none;
+  }
+}
+@media screen and (max-width: 430px){
+  #bigscreenLink,
+  #bigscreenLinkTestDataSepa,
+  #bigscreenLinkDatastorage,
+  #bigscreenLinkReading,
+  #bigscreenLinkReadingSpecific,
+  #bigscreenLinkRecurPayment,
+  #bigscreenLinkSEPAResponse{
+    display:none
+  }
+  #mobileLink,
+  #mobileLinkDatastorage,
+  #mobileLinktestDataSepa ,
+  #mobileLinkReading,
+  #mobileLinkReadingSpecific,
+  #mobileLinkRecurPayment,
+  #mobileLinkSEPAResponse {
+    display:block
+  }
+}
+/*end links for mobile*/
+
+
+
+/* tables and images in tables */
+table .tableblock code .page{
+  border-radius: 6px;
+  background-color: #e72329;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 25px;
+  padding: 0 8px;
+  min-height: 24px;
+  color: var(--primar-color-light);
+  font-family: "Menlo",monospace;
+  max-width: 100%;
+}
+
+table .tableblock code .page:hover{
+  background-color: #b3b3b3;
+  text-decoration: none;
+}
+
+.required,
+.optional,
+.never {
+  position: relative;
+  text-align: center;
+}
+.required .title,
+.optional .title,
+.never .title{
+  position: absolute;
+  top: 0;
+  bottom: 25%;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity .5s ease;
+  -webkit-transition: opacity .5s ease;
+  -moz-transition: opacity .5s ease;
+  -o-transition: opacity .5s ease;
+  z-index: 1000;
+}
+.required:hover .title,
+.optional:hover .title,
+.never:hover .title {
+  cursor: pointer;
+  opacity: 1;
+}
+.required .title strong{
+  color: #00892e;
+  font-size: 16px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #e2f9ec;
+  padding: 2px 20px;
+}
+.optional .title strong{
+  color: #F59340;
+  font-size: 16px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #faf2e0;
+  padding: 2px 20px;
+}
+.never .title strong{
+  color: #e24c4b;
+  font-size: 16px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #f9c9c9;
+  padding: 2px 20px;
+}
+
+
